@@ -4,6 +4,11 @@
     "Terms of Service": {
       "fetch": "https://www.tiktok.com/legal/terms-of-service?lang=fr",
       "select": [".article-wrapper"]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=fr",
+      "select": [".article-wrapper"],
+      "remove": ["#settings-button"]
     }
   }
 }
