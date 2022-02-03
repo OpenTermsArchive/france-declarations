@@ -1,0 +1,9 @@
+{
+  "name": "Canal+",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://static.canalplus.com/legal/donnees-personnelles.html",
+      "select": [".section"]
+    }
+  }
+}
