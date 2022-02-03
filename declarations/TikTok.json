@@ -1,0 +1,9 @@
+{
+  "name": "TikTok",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tiktok.com/legal/terms-of-service?lang=fr",
+      "select": [".article-wrapper"]
+    }
+  }
+}
