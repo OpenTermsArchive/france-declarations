@@ -1,0 +1,10 @@
+{
+  "name": "Twitter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://twitter.com/fr/tos",
+      "select": [".p22-chapters-container"],
+      "remove": [".p05-chapter-navigation"]
+    }
+  }
+}
