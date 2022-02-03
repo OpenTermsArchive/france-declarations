@@ -4,6 +4,10 @@
     "Terms of Service": {
       "fetch": "https://www.salto.fr/conditions-generales-d-utilisation",
       "select": [".static-page__content"]
+    },
+    "Commercial Terms": {
+      "fetch": "https://www.salto.fr/conditions-generales-d-abonnement",
+      "select": [".static-page__content"]
     }
   }
 }
