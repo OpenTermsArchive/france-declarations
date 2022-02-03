@@ -1,0 +1,9 @@
+{
+  "name": "Salto",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.salto.fr/conditions-generales-d-utilisation",
+      "select": [".static-page__content"]
+    }
+  }
+}
