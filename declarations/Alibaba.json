@@ -1,0 +1,10 @@
+{
+  "name": "Alibaba",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rule.alibaba.com/rule/detail/4671.htm?",
+      "select": [".detail"],
+      "remove": [".back-to-list"]
+    }
+  }
+}
