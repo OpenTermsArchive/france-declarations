@@ -1,0 +1,9 @@
+{
+  "name": "Showroomprive.com",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.showroomprive.com/politique_confidentialite.aspx",
+      "select": [".rep"]
+    }
+  }
+}
