@@ -1,0 +1,9 @@
+{
+  "name": "Deezer",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.deezer.com/legal/cgu",
+      "select": ["article"]
+    }
+  }
+}
