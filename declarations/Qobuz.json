@@ -1,0 +1,9 @@
+{
+  "name": "Qobuz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.qobuz.com/fr-fr/legal/terms",
+      "select": ["#main"]
+    }
+  }
+}
