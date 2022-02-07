@@ -1,0 +1,9 @@
+{
+  "name": "OCS",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ocs.fr/donnees-personnelles",
+      "select": [".page-body > .content"]
+    }
+  }
+}
