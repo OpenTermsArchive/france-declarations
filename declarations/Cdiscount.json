@@ -5,6 +5,11 @@
       "fetch": "https://www.cdiscount.com/vie-privee-et-cookies.html",
       "select": ["#scContent"],
       "executeClientScripts": true
+    },
+    "Commercial Terms": {
+      "fetch": "https://clients.cdiscount.com/simple/cgv.aspx",
+      "filter": ["recoverReplacementCharacters"],
+      "select": ".acDes"
     }
   }
 }
