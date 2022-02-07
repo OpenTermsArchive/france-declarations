@@ -1,0 +1,14 @@
+{
+  "name": "Apple",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.apple.com/fr/legal/privacy/fr-ww/",
+      "select": [".main"],
+      "remove": [
+        ".mainnav-overlap",
+        "img[src=\"https://www.apple.com/legal/images/icon_dataprivacy_2x.png\"",
+        ".section-callout-one-column"
+      ]
+    }
+  }
+}
