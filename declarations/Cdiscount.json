@@ -1,0 +1,10 @@
+{
+  "name": "Cdiscount",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cdiscount.com/vie-privee-et-cookies.html",
+      "select": ["#scContent"],
+      "executeClientScripts": true
+    }
+  }
+}
