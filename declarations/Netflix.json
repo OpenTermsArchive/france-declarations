@@ -5,6 +5,11 @@
       "fetch": "https://help.netflix.com/fr/legal/privacy",
       "select": [".global-content > .container"],
       "remove": [".breadcrumb"]
+    },
+    "Terms of Service": {
+      "fetch": "https://help.netflix.com/fr/legal/termsofuse",
+      "select": [".global-content > .container"],
+      "remove": [".breadcrumb"]
     }
   }
 }
