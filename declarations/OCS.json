@@ -4,6 +4,10 @@
     "Privacy Policy": {
       "fetch": "https://www.ocs.fr/donnees-personnelles",
       "select": [".page-body > .content"]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ocs.fr/conditions-generales-dabonnement",
+      "select": [".page-body > .content"]
     }
   }
 }
