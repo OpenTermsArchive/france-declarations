@@ -1,0 +1,17 @@
+{
+  "name": "Salto",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.salto.fr/conditions-generales-d-utilisation",
+      "select": [".static-page__content"]
+    },
+    "Commercial Terms": {
+      "fetch": "https://www.salto.fr/conditions-generales-d-abonnement",
+      "select": [".static-page__content"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.salto.fr/politique-de-confidentialite/politique-de-traitement-des-donnees-personnelles",
+      "select": [".sc-2ne75f-1"]
+    }
+  }
+}
