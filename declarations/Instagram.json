@@ -1,0 +1,10 @@
+{
+  "name": "Instagram",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.instagram.com/519522125107875/?locale=fr_FR",
+      "select": [".d5zfiv1f"],
+      "executeClientScripts": true
+    }
+  }
+}
