@@ -1,0 +1,10 @@
+{
+  "name": "Netflix",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.netflix.com/fr/legal/privacy",
+      "select": [".global-content > .container"],
+      "remove": [".breadcrumb"]
+    }
+  }
+}
