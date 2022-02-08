@@ -1,0 +1,13 @@
+{
+  "name": "Amazon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.amazon.fr/gp/help/customer/display.html?nodeId=201909000",
+      "select": [".help-content"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.amazon.fr/gp/help/customer/display.html?nodeId=201909010",
+      "select": [".help-content"]
+    }
+  }
+}
