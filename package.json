@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "license": "EUPL-1.2",
+  "license": "AGPL-3.0",
   "scripts": {
     "test": "ota-validate",
     "test:schema": "npm run test -- --schema-only",
