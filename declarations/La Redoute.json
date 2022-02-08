@@ -11,6 +11,11 @@
         ".retour"
       ],
       "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.laredoute.fr/espace-mentions_legales.aspx",
+      "select": ["#Rdte_mentions_content"],
+      "executeClientScripts": true
     }
   }
 }
