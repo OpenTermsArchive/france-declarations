@@ -1,0 +1,16 @@
+{
+  "name": "La Redoute",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.laredoute.fr/help_conditions.aspx",
+      "select": [".staticContent"],
+      "remove": [
+        "#sommaire",
+        "a[title=\"imprimer\"]",
+        "a[title=\"enregistrer\"]",
+        ".retour"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
