@@ -1,0 +1,13 @@
+{
+  "name": "Qobuz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.qobuz.com/fr-fr/legal/terms",
+      "select": ["#main"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.qobuz.com/fr-fr/discover/legals/privacy",
+      "select": [".text-privacy-protection"]
+    }
+  }
+}
