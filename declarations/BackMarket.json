@@ -1,0 +1,14 @@
+{
+  "name": "BackMarket",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.backmarket.fr/data-protection"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.backmarket.fr/terms/use"
+    },
+    "Commercial Terms": {
+      "fetch": "https://www.backmarket.fr/terms/sale"
+    }
+  }
+}
