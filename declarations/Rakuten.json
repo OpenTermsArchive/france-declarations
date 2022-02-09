@@ -1,0 +1,16 @@
+{
+  "name": "Rakuten",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/",
+      "select": [".entry-content"],
+      "remove": ["#optoutbtn"],
+      "executeClientScripts": true
+    },
+    "Terms of Service": {
+      "fetch": "https://fr.shopping.rakuten.com/newhelp/conditions-generales/",
+      "select": [".entry-content"],
+      "executeClientScripts": true
+    }
+  }
+}
