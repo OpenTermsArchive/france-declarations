@@ -5,6 +5,12 @@
       "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
       "filter": ["removeReturnToTopButtons", "cleanUrls"],
       "select": "._5tkp"
+    },
+    "Terms of Service": {
+      "fetch": "https://fr-fr.facebook.com/legal/terms/plain_text_terms",
+      "select": [".ad2k81qe"],
+      "remove": [".mdeji52x"],
+      "executeClientScripts": true
     }
   }
 }
