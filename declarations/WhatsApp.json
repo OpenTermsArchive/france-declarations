@@ -1,0 +1,15 @@
+{
+  "name": "WhatsApp",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.whatsapp.com/legal/terms-of-service-eea?lang=fr",
+      "select": ["#content-wrapper"],
+      "remove": ["[href='#top-of-page']"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.whatsapp.com/legal/updates/privacy-policy-eea?lang=fr",
+      "select": ["#content-wrapper"],
+      "remove": ["[href='#top-of-page']"]
+    }
+  }
+}
