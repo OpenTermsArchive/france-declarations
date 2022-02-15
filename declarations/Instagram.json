@@ -3,13 +3,14 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://help.instagram.com/519522125107875/?locale=fr_FR",
-      "select": ["div[role=\"main\"]"],
+      "select": ["div[role=main]"],
       "filter": ["removeTrackingIDs"],
       "executeClientScripts": true
     },
     "Terms of Service": {
       "fetch": "https://help.instagram.com/581066165581870?locale=fr_FR",
-      "select": ["div[role=\"main\"]"],
+      "select": ["div[role=main]"],
+      "remove": ["div[aria-label=\"Copier le lien\"]"],
       "filter": ["removeTrackingIDs"],
       "executeClientScripts": true
     }
