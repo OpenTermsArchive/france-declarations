@@ -1,0 +1,15 @@
+{
+  "name": "Reddit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.redditinc.com/fr/policies/user-agreement",
+      "select": ["#content"],
+      "remove": [".filter-holder"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.redditinc.com/fr/policies/privacy-policy",
+      "select": ["#content"],
+      "remove": [".filter-holder"]
+    }
+  }
+}
