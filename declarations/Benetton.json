@@ -1,0 +1,13 @@
+{
+  "name": "Benetton",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fr.benetton.com/privacy/privacy.html",
+      "select": ["#maincontent"]
+    },
+    "Commercial Terms": {
+      "fetch": "https://fr.benetton.com/terms/terms.html",
+      "select": ["#maincontent"]
+    }
+  }
+}
