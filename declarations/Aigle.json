@@ -1,0 +1,9 @@
+{
+  "name": "Aigle",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.aigle.com/fr/fr/terms.html",
+      "select": [".terms"]
+    }
+  }
+}
