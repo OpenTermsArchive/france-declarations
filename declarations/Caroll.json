@@ -1,0 +1,13 @@
+{
+  "name": "Caroll",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.caroll.com/fr_fr/general/conditions-generales-de-vente.html",
+      "select": ["#primary"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.caroll.com/fr_fr/general/politique-de-confidentialite.html",
+      "select": ["#primary"]
+    }
+  }
+}
