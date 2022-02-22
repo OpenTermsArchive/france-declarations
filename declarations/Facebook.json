@@ -3,7 +3,7 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
-      "filter": ["cleanUrls"],
+      "filter": ["removeEmptyAnchorsLinks"],
       "select": "._5tkp",
       "remove": ["._t3o"]
     },
