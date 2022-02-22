@@ -1,0 +1,13 @@
+{
+  "name": "GO Sport",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.go-sport.com/cgv/",
+      "select": ["#content"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.go-sport.com/charte-protection-donnees-clients/",
+      "select": ["#content"]
+    }
+  }
+}
