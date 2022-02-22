@@ -1,0 +1,13 @@
+{
+  "name": "Etam",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.etam.com/popin_CGV.html",
+      "select": "#maincontent"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.etam.com/chartedeconfidentialite.html",
+      "select": "#maincontent"
+    }
+  }
+}
