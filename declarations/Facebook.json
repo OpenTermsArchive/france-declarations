@@ -1,0 +1,17 @@
+{
+  "name": "Facebook",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
+      "filter": ["removeEmptyAnchorsLinks"],
+      "select": "._5tkp",
+      "remove": ["._t3o"]
+    },
+    "Terms of Service": {
+      "fetch": "https://fr-fr.facebook.com/legal/terms/plain_text_terms",
+      "select": [".ad2k81qe"],
+      "remove": [".mdeji52x"],
+      "executeClientScripts": true
+    }
+  }
+}
