@@ -3,8 +3,9 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
-      "filter": ["removeReturnToTopButtons", "cleanUrls"],
-      "select": "._5tkp"
+      "filter": ["cleanUrls"],
+      "select": "._5tkp",
+      "remove": ["._t3o"]
     },
     "Terms of Service": {
       "fetch": "https://fr-fr.facebook.com/legal/terms/plain_text_terms",

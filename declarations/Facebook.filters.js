@@ -1,7 +1,3 @@
-export function removeReturnToTopButtons(document) {
-  document.querySelectorAll("._t3o").forEach((element) => element.remove());
-}
-
 export function cleanUrls(document) {
   Array.from(document.querySelectorAll('[href="#"]')).map((link) =>
     link.removeAttribute("href")
