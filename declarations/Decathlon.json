@@ -1,0 +1,18 @@
+{
+  "name": "Decathlon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.decathlon.fr/landing/donnees-personnelles-decathlon/_/R-a-donnees-personnelles",
+      "select": [".wgutter"],
+      "filter": ["removeEmptyLinks"],
+      "remove": [
+        "img[src=\"/static/LP/Services/donnees-personnelles/assets/img/bulle-humain.png\"]",
+        "img[src=\"/static/LP/Services/donnees-personnelles/assets/img/valiuz.jpg\"]",
+        ".cpicto"
+      ]
+    },
+    "Commercial Terms": {
+      "fetch": "https://www.decathlon.fr/static/2019/LP/services/global-services/V21/assets/cgv.pdf"
+    }
+  }
+}
