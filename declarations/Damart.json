@@ -1,0 +1,13 @@
+{
+  "name": "Damart",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.damart.fr/conditions-generales-de-vente",
+      "select": [".container-cgv"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.damart.fr/donnees-personnelles-et-cookies",
+      "select": [".content-rgpd"]
+    }
+  }
+}
