@@ -1,0 +1,13 @@
+{
+  "name": "Kookaï",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.kookai.fr/pages/conditions-generales-de-vente",
+      "select": [".main-content"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kookai.fr/pages/politique-de-confidentialite",
+      "select": [".main-content"]
+    }
+  }
+}
