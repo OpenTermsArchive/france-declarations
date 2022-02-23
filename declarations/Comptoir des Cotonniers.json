@@ -1,0 +1,14 @@
+{
+  "name": "Comptoir des Cotonniers",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.comptoirdescotonniers.com/cgv-c4.html",
+      "select": ["#primary"],
+      "remove": [".anchorMenu"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.comptoirdescotonniers.com/politique_protection_donnees_personnelles_cookies-Politique_protection_donn%C3%A9es_personnelles_Cookies.html",
+      "select": ["#primary"]
+    }
+  }
+}
