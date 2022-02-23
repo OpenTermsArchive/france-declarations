@@ -1,0 +1,19 @@
+{
+  "name": "Spartoo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.spartoo.com/cnil.php",
+      "select": [
+        "h1",
+        ".contentCentre"
+      ]
+    },
+    "Commercial Terms": {
+      "fetch": "https://www.spartoo.com/cgv.php",
+      "select": [
+        "#contentTop",
+        ".contentCentre"
+      ]
+    }
+  }
+}
