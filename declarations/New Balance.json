@@ -1,0 +1,17 @@
+{
+  "name": "New Balance",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.newbalance.fr/fr/terms.html",
+      "select": [
+        "#maincontent .col-12"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.newbalance.fr/fr/privacy-policy.html",
+      "select": [
+        "#maincontent .col-12"
+      ]
+    }
+  }
+}
