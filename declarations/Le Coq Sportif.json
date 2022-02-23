@@ -1,0 +1,15 @@
+{
+  "name": "Le Coq Sportif",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.lecoqsportif.com/fr_FR/cgv",
+      "select": [".main-page-2b_"],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lecoqsportif.com/fr_FR/privacy",
+      "select": [".main-page-2b_"],
+      "executeClientScripts": true
+    }
+  }
+}
