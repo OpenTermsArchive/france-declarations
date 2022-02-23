@@ -1,0 +1,15 @@
+{
+  "name": "Kappa",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.kappastore.fr/pages/cgv",
+      "select": ["#MainContent"],
+      "remove": [".breadcrumb"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kappastore.fr/pages/privacy-policy",
+      "select": ["#MainContent"],
+      "remove": [".breadcrumb"]
+    }
+  }
+}
