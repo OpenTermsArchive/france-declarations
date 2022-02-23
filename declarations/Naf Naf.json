@@ -1,0 +1,13 @@
+{
+  "name": "Naf Naf",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.nafnaf.com/cgv.php",
+      "select": [".page_text"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nafnaf.com/donnees-personnelles.php",
+      "select": [".page_text"]
+    }
+  }
+}
