@@ -1,0 +1,17 @@
+{
+  "name": "Zalando",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zalando.fr/zalando-protection-donnees/",
+      "select": [
+        ".z-home-pp"
+      ]
+    },
+    "Commercial Terms": {
+      "fetch": "https://www.zalando.fr/zalando-cgv/",
+      "select": [
+        ".cf-singlepage-legal"
+      ]
+    }
+  }
+}
