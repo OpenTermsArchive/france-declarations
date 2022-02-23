@@ -1,0 +1,13 @@
+{
+  "name": "Jennyfer",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.jennyfer.com/fr-fr/conditions-generales-de-vente-cgv.html",
+      "select": [".PageHeader__main", ".Layout__content"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.jennyfer.com/fr-fr/charte-de-confidentialite-chartedeconfidentialite.html",
+      "select": [".PageHeader__main", ".Layout__content"]
+    }
+  }
+}
