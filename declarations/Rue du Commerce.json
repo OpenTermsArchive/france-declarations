@@ -1,0 +1,13 @@
+{
+  "name": "Rue du Commerce",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.rueducommerce.fr/info/mentions-legales/cgv",
+      "select": ["#cms"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rueducommerce.fr/info/mentions-legales/confidentialite",
+      "select": ["#cms"]
+    }
+  }
+}
