@@ -1,0 +1,11 @@
+{
+  "name": "Zara",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://static.zara.net/static//pdfs/FR/terms-and-conditions/terms-and-conditions-fr_FR-20211025.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://static.zara.net/static/pdfs/FR/privacy-policy/privacy-policy-fr_FR-20210706.pdf"
+    }
+  }
+}
