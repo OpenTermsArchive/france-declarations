@@ -1,0 +1,23 @@
+{
+  "name": "Printemps",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.printemps.com/fr/fr/protection-donnees-personnelles",
+      "select": [
+        ".content-page"
+      ],
+      "remove": [
+        ".main-breadcrumb"
+      ]
+    },
+    "Commercial Terms": {
+      "fetch": "https://www.printemps.com/fr/fr/conditions-generales-vente-utilisation",
+      "select": [
+        ".content-page"
+      ],
+      "remove": [
+        ".main-breadcrumb"
+      ]
+    }
+  }
+}
