@@ -1,0 +1,13 @@
+{
+  "name": "Lacoste",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.lacoste.com/fr/CGV.html",
+      "select": [".page-section"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lacoste.com/fr/privacy.html",
+      "select": [".page-section"]
+    }
+  }
+}
