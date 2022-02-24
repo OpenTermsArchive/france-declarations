@@ -1,0 +1,11 @@
+{
+  "name": "Darty",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.darty.com/res3/services/contrat-de-confiance/pdf/nouveau-contrat-de-confiance-darty.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.darty.com/res3/pdf/cnil/donnees_personnelles_darty.pdf"
+    }
+  }
+}
