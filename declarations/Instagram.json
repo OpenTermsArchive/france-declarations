@@ -10,7 +10,11 @@
     "Terms of Service": {
       "fetch": "https://help.instagram.com/581066165581870?locale=fr_FR",
       "select": ["div[role=main]"],
-      "remove": ["div[aria-label=\"Copier le lien\"]"],
+      "remove": [
+        "div[aria-label=\"Copier le lien\"]",
+        "[id='Articles connexes']",
+        "fieldset"
+      ],
       "filter": ["removeTrackingIDs"],
       "executeClientScripts": true
     }
