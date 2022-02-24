@@ -1,0 +1,17 @@
+{
+  "name": "Boulanger",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.boulanger.com/content/static/bcom/cgv/ctn/conditions-generales-vente-boulanger.html?_=1645628008050",
+      "select": ["body"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.boulanger.com/evenement/infos-legales",
+      "select": {
+        "startBefore": ["#publication"],
+        "endBefore": ["#private"]
+      },
+      "remove": [".goTop", ".buttons"]
+    }
+  }
+}
