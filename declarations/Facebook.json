@@ -3,14 +3,16 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
-      "filter": ["removeEmptyAnchorsLinks"],
-      "select": "._5tkp",
-      "remove": ["._t3o"]
+      "filter": ["removeEmptyAnchorsLinks", "removeTrackingIDs"],
+      "select": ["div[role=main]"],
+      "remove": ["._5tko"],
+      "executeClientScripts": true
     },
     "Terms of Service": {
       "fetch": "https://fr-fr.facebook.com/legal/terms/plain_text_terms",
-      "select": [".ad2k81qe"],
-      "remove": [".mdeji52x"],
+      "select": ["div[role=main]"],
+      "remove": ["footer[role=contentinfo]"],
+      "filter": ["removeEmptyAnchorsLinks", "removeTrackingIDs"],
       "executeClientScripts": true
     }
   }
