@@ -3,11 +3,13 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://discord.com/terms?locale=fr",
-      "select": ".document-25D7S4"
+      "select": ".document-25D7S4",
+      "remove": ["a[href=\"#[object-object]\"]"]
     },
     "Privacy Policy": {
       "fetch": "https://discord.com/privacy?locale=fr",
-      "select": ".document-25D7S4"
+      "select": ".document-25D7S4",
+      "remove": ["a[href=\"#[object-object]\"]"]
     }
   }
 }
