@@ -4,8 +4,7 @@
     "Commercial Terms": {
       "fetch": "https://www.bizzbee.com/cgv.html",
       "select": ["#cms-page-content"],
-      "remove": [".cgv-top"],
-      "filter": ["removeHrefBlink"]
+      "remove": [".cgv-top"]
     },
     "Privacy Policy": {
       "fetch": "https://www.bizzbee.com/politique-de-confidentialite.html",
