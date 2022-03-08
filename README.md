@@ -1,10 +1,10 @@
 # Open Terms Archive - French services
 
-These services declarations are maintained by [UFC-Que Choisir](https://www.quechoisir.org) and the [Office of the French Ambassador for Digital Affairs](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/diplomatie-numerique/) and tracked on [Open Terms Archive](https://opentermsarchive.org).
+These services declarations are maintained by [UFC-Que Choisir](https://www.quechoisir.org) with support from the [Office of the French Ambassador for Digital Affairs](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/diplomatie-numerique/) and tracked on [Open Terms Archive](https://opentermsarchive.org).
 
 These service declarations are consumed by the [Open Terms Archive engine](https://github.com/ambanum/OpenTermsArchive). See the Open Terms Archive [contribution guidelines](https://github.com/OpenTermsArchive/services-all/blob/main/CONTRIBUTING.md) to learn how to add and update services or documents.
 
-You can [explore the tracked versions](https://github.com/OpenTermsArchive/versions-dating) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/versions-dating/releases) in the `OpenTermsArchive/versions-dating` repository.
+You can [explore the tracked versions](https://github.com/OpenTermsArchive/versions-france) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/versions-france/releases) in the `OpenTermsArchive/versions-france` repository.
 
 ## Scope
 
