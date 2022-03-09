@@ -4,13 +4,13 @@
     "Privacy Policy": {
       "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
       "filter": ["removeEmptyAnchorsLinks", "removeTrackingIDs"],
-      "select": ["div[role=main]"],
+      "select": ["div[role=\"main\"]"],
       "remove": ["._5tko"],
       "executeClientScripts": true
     },
     "Terms of Service": {
       "fetch": "https://fr-fr.facebook.com/legal/terms/plain_text_terms",
-      "select": ["div[role=main]"],
+      "select": ["div[role=\"main\"]"],
       "remove": ["footer[role=contentinfo]"],
       "filter": ["removeEmptyAnchorsLinks", "removeTrackingIDs"],
       "executeClientScripts": true
