@@ -1,0 +1,9 @@
+{
+  "name": "Air Corsica",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.aircorsica.com/politique-de-confidentialite.html",
+      "select": [".bg-article"]
+    }
+  }
+}
