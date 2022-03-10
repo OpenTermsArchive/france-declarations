@@ -1,0 +1,11 @@
+{
+  "name": "Air France",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wwws.airfrance.fr/information/legal/edito-psc",
+      "select": [".bwc-page-layout__medium"],
+      "remove": [".bw-information-breadcrumbs"],
+      "executeClientScripts": true
+    }
+  }
+}
