@@ -3,13 +3,14 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://rule.alibaba.com/rule/detail/4671.htm?",
-      "select": [".detail"],
-      "remove": [".back-to-list"]
+      "select": ["#rule-detail-body"],
+      "remove": [".back-to-list", ".evalutaion", ".rule-text-indicate"],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://rule.alibaba.com/rule/detail/4672.htm?",
       "select": ["#rule-detail-body"],
-      "remove": [".back-to-list", ".evalutaion"],
+      "remove": [".back-to-list", ".evalutaion", ".rule-text-indicate"],
       "executeClientScripts": true
     }
   }
