@@ -1,0 +1,9 @@
+{
+  "Commercial Terms": [
+    {
+      "fetch": "https://www.vinted.fr/terms_and_conditions",
+      "select": ["#content"],
+      "validUntil": "2022-03-04T18:12:24+01:00"
+    }
+  ]
+}
