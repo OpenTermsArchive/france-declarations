@@ -1,0 +1,18 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://rule.alibaba.com/rule/detail/4672.htm?",
+      "select": ["#rule-detail-body"],
+      "remove": [".back-to-list"],
+      "validUntil": "2022-03-05T18:08:34+01:00"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://rule.alibaba.com/rule/detail/4671.htm?",
+      "select": [".detail"],
+      "remove": [".back-to-list"],
+      "validUntil": "2022-03-05T18:08:32+01:00"
+    }
+  ]
+}
