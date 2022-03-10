@@ -8,8 +8,9 @@
     },
     "Privacy Policy": {
       "fetch": "https://rule.alibaba.com/rule/detail/4672.htm?",
-      "select": [".detail"],
-      "remove": [".back-to-list"]
+      "select": ["#rule-detail-body"],
+      "remove": [".back-to-list", ".evalutaion"],
+      "executeClientScripts": true
     }
   }
 }
