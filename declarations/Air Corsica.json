@@ -4,6 +4,10 @@
     "Privacy Policy": {
       "fetch": "https://www.aircorsica.com/politique-de-confidentialite.html",
       "select": [".bg-article"]
+    },
+    "Commercial Terms": {
+      "fetch": "https://www.aircorsica.com/conditions-generales-de-vente.html",
+      "select": [".bg-article"]
     }
   }
 }
