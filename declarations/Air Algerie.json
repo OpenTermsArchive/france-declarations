@@ -1,0 +1,10 @@
+{
+  "name": "Air Algérie",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://airalgerie.dz/mentions-legales/politique-de-confidentialite/",
+      "select": [".main"],
+      "remove": [".page-top-breadcrumbs-wrapper"]
+    }
+  }
+}
