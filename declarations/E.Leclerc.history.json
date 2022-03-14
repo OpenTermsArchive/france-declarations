@@ -1,0 +1,9 @@
+{
+  "Commercial Terms": [
+    {
+      "fetch": "https://www.e.leclerc/e/conditions-generales-de-vente",
+      "select": ["app-images-wrapper"],
+      "validUntil": "2022-02-17T15:47:38+01:00"
+    }
+  ]
+}
