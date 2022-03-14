@@ -1,0 +1,10 @@
+{
+  "name": "Air Caraïbes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.aircaraibes.com/pratique/mentions-legales/politique-de-confidentialite",
+      "select": [".otnotice-sections"],
+      "executeClientScripts": true
+    }
+  }
+}
