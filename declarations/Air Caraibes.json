@@ -5,6 +5,11 @@
       "fetch": "https://www.aircaraibes.com/pratique/mentions-legales/politique-de-confidentialite",
       "select": [".otnotice-sections"],
       "executeClientScripts": true
+    },
+    "Conditions of Carriage": {
+      "fetch": "https://www.aircaraibes.com/pratique/mentions-legales/conditions-generales-vente-transport",
+      "select": [".node-page-base"],
+      "executeClientScripts": true
     }
   }
 }
