@@ -8,8 +8,8 @@
     "Privacy Policy": {
       "fetch": "https://www.boulanger.com/evenement/infos-legales",
       "select": {
-        "startBefore": ["#publication"],
-        "endBefore": ["#private"]
+        "startBefore": "#publication",
+        "endBefore": "#private"
       },
       "remove": [".goTop", ".buttons"]
     }
