@@ -3,8 +3,8 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.printemps.com/fr/fr/protection-donnees-personnelles",
-      "select": [".content-page"],
-      "remove": [".main-breadcrumb"],
+      "select": ["div[data-home-line-type=\"Standard\"]"],
+      "remove": [".navigation-wrapper", "footer"],
       "executeClientScripts": true
     },
     "Commercial Terms": {
