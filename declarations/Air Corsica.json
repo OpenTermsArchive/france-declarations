@@ -8,6 +8,10 @@
     "Commercial Terms": {
       "fetch": "https://www.aircorsica.com/conditions-generales-de-vente.html",
       "select": [".bg-article"]
+    },
+    "Conditions of Carriage": {
+      "fetch": "https://www.aircorsica.com/conditions-generales-transports.html",
+      "select": [".bg-article"]
     }
   }
 }
