@@ -3,7 +3,12 @@
   "documents": {
     "Conditions of Carriage": {
       "fetch": "https://www.brusselsairlines.com/fr-fr/misc/conditions-generales-de-transport.aspx",
-      "select": [".main"],
+      "select": ["#contentContainer"],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.brusselsairlines.com/fr-fr/misc/avis-confidentialite.aspx",
+      "select": ["#contentContainer"],
       "executeClientScripts": true
     }
   }
