@@ -4,6 +4,10 @@
     "Conditions of Carriage": {
       "fetch": "https://www.ryanair.com/fr/fr/informations-utiles/centre-daide/conditions-generales.main.html",
       "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ryanair.com/fr/fr/entreprise/politique-de-confidentialite.main.html",
+      "select": "body"
     }
   }
 }
