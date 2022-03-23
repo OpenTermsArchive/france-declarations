@@ -1,0 +1,9 @@
+{
+  "name": "Royal Air Maroc",
+  "documents": {
+    "Conditions of Carriage": {
+      "fetch": "https://www.royalairmaroc.com/dz-fr/conditions-generales",
+      "select": "This unused `select` is there to pass validation; in this case, there is no way to detect from the URL that the target document is a PDF file"
+    }
+  }
+}
