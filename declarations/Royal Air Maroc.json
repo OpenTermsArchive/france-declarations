@@ -2,8 +2,12 @@
   "name": "Royal Air Maroc",
   "documents": {
     "Conditions of Carriage": {
-      "fetch": "https://www.royalairmaroc.com/dz-fr/conditions-generales",
+      "fetch": "https://www.royalairmaroc.com/documents/20195/7459878/CONDITIONS+GENERALES+DE+TRANSPORT+Passagers+et+Bagages.pdf/0dd94d77-51e3-4675-a43a-665c55108a8d",
       "select": "This unused `select` is there to pass validation; in this case, there is no way to detect from the URL that the target document is a PDF file"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.royalairmaroc.com/dz-fr/politique-de-confidentialite",
+      "select": [".mt-4"]
     }
   }
 }
