@@ -5,6 +5,11 @@
       "fetch": "https://www.flytap.com/fr-fr/conditions-de-transport",
       "select": ".root-main",
       "remove": ".root-breadcrumb"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.flytap.com/fr-fr/confidentialite",
+      "select": ".root-main",
+      "remove": [".root-breadcrumb", ".wrapper__img"]
     }
   }
 }
