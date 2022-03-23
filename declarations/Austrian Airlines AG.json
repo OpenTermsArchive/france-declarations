@@ -5,6 +5,11 @@
       "fetch": "https://www.austrian.com/fr/fr/data-protection",
       "select": [".contentpage"],
       "executeClientScripts": true
+    },
+    "Conditions of Carriage": {
+      "fetch": "https://www.austrian.com/fr/fr/conditions-of-carriage",
+      "select": [".contentpage"],
+      "executeClientScripts": true
     }
   }
 }
