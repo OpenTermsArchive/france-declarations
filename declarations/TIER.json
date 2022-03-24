@@ -4,6 +4,10 @@
     "Terms of Service": {
       "fetch": "https://about.tier.app/fr/terms-and-conditions/",
       "select": ".insert-page-9169"
+    },
+    "Privacy Policy": {
+      "fetch": "https://about.tier.app/fr/privacy-notice/",
+      "select": ".insert-page-9622"
     }
   }
 }
