@@ -5,6 +5,10 @@
       "fetch": "https://www.li.me/user-agreement/fr",
       "select": "#francefrance",
       "remove": "img[src=\"https://www.li.me/hubfs/Assets/icon-email.png\"]"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.li.me/fr/legal/privacy-policy/",
+      "select": ".content"
     }
   }
 }
