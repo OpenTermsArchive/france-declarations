@@ -4,6 +4,10 @@
     "Terms of Service": {
       "fetch": "https://ridedott.com/fr/conditions-generales/france",
       "select": "#legal"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ridedott.com/fr/vie-privee/france",
+      "select": "#legal"
     }
   }
 }
