@@ -3,11 +3,13 @@
   "documents": {
     "Commercial Terms": {
       "fetch": "https://www.volotea.com/fr/conditions-legales/conditions-de-transport/",
-      "select": ".v7-section__content"
+      "select": ".v7-section__content",
+      "remove": "a[href=\"#main\"]"
     },
     "Privacy Policy": {
       "fetch": "https://www.volotea.com/fr/conditions-legales/politique-de-confidentialite/",
-      "select": ".v7-section__content"
+      "select": ".v7-section__content",
+      "remove": "a[href=\"#main\"]"
     }
   }
 }
