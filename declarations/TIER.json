@@ -1,0 +1,9 @@
+{
+  "name": "TIER",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://about.tier.app/fr/terms-and-conditions/",
+      "select": ".insert-page-9169"
+    }
+  }
+}
