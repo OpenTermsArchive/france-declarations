@@ -1,0 +1,10 @@
+{
+  "name": "Pony",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ponybikes.notion.site/Conditions-G-n-rales-d-Utilisation-f3298308abae47ebab5efebad4c9a407",
+      "select": ".notion-page-content",
+      "executeClientScripts": true
+    }
+  }
+}
