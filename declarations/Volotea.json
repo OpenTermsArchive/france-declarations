@@ -1,0 +1,9 @@
+{
+  "name": "Volotea",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.volotea.com/fr/conditions-legales/conditions-de-transport/",
+      "select": ".v7-section__content"
+    }
+  }
+}
