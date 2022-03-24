@@ -1,0 +1,15 @@
+{
+  "name": "Emirates",
+  "documents": {
+    "Conditions of Carriage": {
+      "fetch": "https://www.emirates.com/fr/french/information/terms-and-conditions/",
+      "select": ["#maincontent"],
+      "remove": ["div[data-organism=\"sticky-left-nav\"]"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.emirates.com/fr/french/information/privacy-policy/",
+      "select": ["#maincontent"],
+      "remove": ["div[data-organism=\"sticky-left-nav\"]"]
+    }
+  }
+}
