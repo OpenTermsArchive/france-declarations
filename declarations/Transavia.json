@@ -5,6 +5,10 @@
       "fetch": "https://www.transavia.com/fr-FR/juridique/conditions-de-transport/",
       "select": "#top",
       "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.transavia.com/fr-FR/juridique/confidentialite/",
+      "select": ["#top", ".content-block"]
     }
   }
 }
