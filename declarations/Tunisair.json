@@ -1,0 +1,15 @@
+{
+  "name": "Tunisair",
+  "documents": {
+    "Conditions of Carriage": {
+      "fetch": "http://www.tunisair.com/site/publish/module/cgt/cgt.asp",
+      "select": "#contenuinterne",
+      "remove": "#navinterne"
+    },
+    "Commercial Terms": {
+      "fetch": "http://www.tunisair.com/site/publish/module/cgt/cgv.asp",
+      "select": "#contenuinterne",
+      "remove": "#navinterne"
+    }
+  }
+}
