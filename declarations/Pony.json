@@ -1,0 +1,15 @@
+{
+  "name": "Pony",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ponybikes.notion.site/Conditions-G-n-rales-d-Utilisation-f3298308abae47ebab5efebad4c9a407",
+      "select": ".notion-page-content",
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://ponybikes.notion.site/Politique-de-Confidentialit-43ae2b3a92da4952913b41e5e75b5c62",
+      "select": ".notion-page-content",
+      "executeClientScripts": true
+    }
+  }
+}
