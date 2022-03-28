@@ -5,7 +5,7 @@
       "fetch": "https://www.salto.fr/conditions-generales-d-utilisation",
       "select": [".static-page__content"]
     },
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.salto.fr/conditions-generales-d-abonnement",
       "select": [".static-page__content"]
     },

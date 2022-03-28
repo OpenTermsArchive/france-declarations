@@ -1,7 +1,7 @@
 {
   "name": "Damart",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.damart.fr/conditions-generales-de-vente",
       "select": [".container-cgv"]
     },

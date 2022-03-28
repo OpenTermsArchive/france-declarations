@@ -1,7 +1,7 @@
 {
   "name": "Naf Naf",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.nafnaf.com/cgv.php",
       "select": [".page_text"]
     },

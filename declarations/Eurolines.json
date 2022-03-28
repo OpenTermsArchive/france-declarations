@@ -1,7 +1,7 @@
 {
   "name": "Eurolines",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.eurolines.de/fr/agb/cgv-sur-linternet/",
       "select": [".content_wrapper"],
       "remove": [".special-navi", ".eu_breadcrumb"]

@@ -1,7 +1,7 @@
 {
   "name": "Camaieu",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.camaieu.fr/Content/conditions-generales-de-vente",
       "select": ["#cgv"],
       "remove": [".img-keyrus", ".img-ecritel"]

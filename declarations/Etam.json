@@ -1,7 +1,7 @@
 {
   "name": "Etam",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.etam.com/popin_CGV.html",
       "select": "#maincontent"
     },

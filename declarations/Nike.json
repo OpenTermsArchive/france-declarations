@@ -7,7 +7,7 @@
         "#legalContainer"
       ]
     },
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://agreementservice.svs.nike.com/rest/agreement?agreementType=termsOfSale&uxId=com.nike.tos&country=FR&language=fr&requestType=redirect",
       "select": [
         "#legalContainer"

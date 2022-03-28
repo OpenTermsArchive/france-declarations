@@ -8,7 +8,7 @@
         ".contentCentre"
       ]
     },
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.spartoo.com/cgv.php",
       "select": [
         "#contentTop",

@@ -1,7 +1,7 @@
 {
   "name": "SNCF Connect",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.sncf-connect.com/ext/editorial/pdf/cgv/cgv-sncf-connect.pdf"
     }
   }

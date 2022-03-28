@@ -6,7 +6,7 @@
       "select": "#contenuinterne",
       "remove": "#navinterne"
     },
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "http://www.tunisair.com/site/publish/module/cgt/cgv.asp",
       "select": "#contenuinterne",
       "remove": "#navinterne"

@@ -1,7 +1,7 @@
 {
   "name": "Levi's",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.levi.com/FR/fr_FR/legal/terms-and-conditions",
       "select": [".lsco-container"],
       "executeClientScripts": true

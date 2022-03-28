@@ -1,7 +1,7 @@
 {
   "name": "Aegean Airlines",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://fr.aegeanair.com/conditions-et-avis/conditions-generales-de-transport/",
       "select": [".container"],
       "remove": [".breadcrumb", "button[onclick=\"window.print();\""]

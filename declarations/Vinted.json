@@ -5,7 +5,7 @@
       "fetch": "https://www.vinted.fr/privacy-policy",
       "select": ["#content"]
     },
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.vinted.fr/terms_and_conditions",
       "select": ["#content"],
       "remove": [".u-mobiles-only"]
