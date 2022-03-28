@@ -9,7 +9,7 @@
       "fetch": "https://www.backmarket.fr/terms/use",
       "select": "This unused `select` is there to pass validation; in this case, there is no way to detect from the URL that the target document is a PDF file"
     },
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.backmarket.fr/terms/sale",
       "select": "This unused `select` is there to pass validation; in this case, there is no way to detect from the URL that the target document is a PDF file"
     }

@@ -1,7 +1,7 @@
 {
   "name": "Devred",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.devred.com/general_terms_and_conditions_devred/",
       "select": ["#maincontent"],
       "remove": [

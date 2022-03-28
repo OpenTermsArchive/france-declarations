@@ -1,7 +1,7 @@
 {
   "name": "SHEIN",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://fr.shein.com/Terms-and-Conditions-a-399.html",
       "select": [".c-new-article:nth-child(2)"],
       "executeClientScripts": true

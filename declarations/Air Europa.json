@@ -6,7 +6,7 @@
       "select": [".cmp-Jumbo-banner-small", ".cmp-container"],
       "remove": ["#interestBlock"]
     },
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.aireuropa.com/fr/fr/aea/informations-pour-voler/conditions/conditions-de-reservation.html",
       "select": [".cmp-Jumbo-banner-small", ".cmp-container"],
       "remove": ["#interestBlock"]

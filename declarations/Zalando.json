@@ -7,7 +7,7 @@
         ".z-home-pp"
       ]
     },
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.zalando.fr/zalando-cgv/",
       "select": [
         ".cf-singlepage-legal"

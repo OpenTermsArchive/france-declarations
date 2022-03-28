@@ -1,7 +1,7 @@
 {
   "name": "Kookaï",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.kookai.fr/pages/conditions-generales-de-vente",
       "select": [".main-content"]
     },

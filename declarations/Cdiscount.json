@@ -6,7 +6,7 @@
       "select": ["#scContent"],
       "executeClientScripts": true
     },
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://clients.cdiscount.com/simple/cgv.aspx",
       "filter": ["recoverReplacementCharacters"],
       "select": ".acDes"

@@ -1,7 +1,7 @@
 {
   "name": "C&A",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.c-and-a.com/fr/fr/shop/service/cgv",
       "select": ["section > .container"],
       "remove": [".box--navigation", "button[data-overlay-head=Navigation]"]

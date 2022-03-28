@@ -1,7 +1,7 @@
 {
   "name": "Comptoir des Cotonniers",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.comptoirdescotonniers.com/cgv-c4.html",
       "select": ["#primary"],
       "remove": [".anchorMenu"]

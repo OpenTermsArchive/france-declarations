@@ -1,7 +1,7 @@
 {
   "name": "G7",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.g7.fr/conditions-generales",
       "select": ["#content-wrapper"],
       "remove": ["#mmenu-overlay"],

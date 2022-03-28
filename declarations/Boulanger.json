@@ -1,7 +1,7 @@
 {
   "name": "Boulanger",
   "documents": {
-    "Commercial Terms": {
+    "General Conditions of Sale": {
       "fetch": "https://www.boulanger.com/content/static/bcom/cgv/ctn/conditions-generales-vente-boulanger.html?_=1645628008050",
       "select": ["body"]
     },
