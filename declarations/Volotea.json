@@ -1,7 +1,7 @@
 {
   "name": "Volotea",
   "documents": {
-    "Condition of Carriage": {
+    "Conditions of Carriage": {
       "fetch": "https://www.volotea.com/fr/conditions-legales/conditions-de-transport/",
       "select": ".v7-section__content",
       "remove": "a[href=\"#main\"]"
