@@ -4,11 +4,13 @@
     "Privacy Policy": {
       "fetch": "https://www.austrian.com/fr/fr/data-protection",
       "select": [".contentpage"],
+      "filter":["removeAccordionsLinks"],
       "executeClientScripts": true
     },
     "Conditions of Carriage": {
       "fetch": "https://www.austrian.com/fr/fr/conditions-of-carriage",
       "select": [".contentpage"],
+      "filter":["removeAccordionsLinks"],
       "executeClientScripts": true
     }
   }
