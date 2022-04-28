@@ -1,0 +1,12 @@
+{
+  "name": "IBERIA",
+  "documents": {
+      "Privacy Policy": {
+          "fetch": "https://www.iberia.com/fr/informations-sur-la-confidentialite/",
+          "select": ["article"],
+          "remove": [".ibe-accordion__options"],
+          "executeClientScripts": true,
+          "filter": ["setpreviousVersionsLink", "removeAccordionsLinks"]
+        }
+    }
+}
