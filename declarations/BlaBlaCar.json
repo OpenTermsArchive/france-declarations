@@ -5,6 +5,10 @@
       "fetch": "https://blog.blablacar.fr/about-us/terms-and-conditions",
       "select": ["div[role=\"document\"]"]
     },
+     "Trackers Policy": {
+      "fetch": "https://blog.blablacar.fr/about-us/cookies-policy",
+      "select": ["div[role=\"document\"]"]
+    },
     "Privacy Policy": {
       "fetch": "https://blog.blablacar.fr/about-us/privacy-policy",
       "select": ["div[role=\"document\"]"]
