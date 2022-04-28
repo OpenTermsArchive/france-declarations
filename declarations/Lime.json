@@ -3,7 +3,7 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.li.me/fr-fr/user-agreement",
-      "select": "#francefrance",
+      "select": "main",
       "remove": "img[src=\"https://www.li.me/hubfs/Assets/icon-email.png\"]"
     },
     "Privacy Policy": {
