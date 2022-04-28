@@ -4,15 +4,16 @@
     "Conditions of Carriage": {
       "fetch": "https://www.brusselsairlines.com/fr/fr/legal-notices/terms-and-conditions-conditions-of-carriage",
       "select": ["[role=\"main\"] .sidebar-content"],
-      "//": "executeClientScripts is *mandatory* to avoid HTTP 403 error",
       "executeClientScripts": true,
-      "remove": ["[aria-hidden=\"true\"]"],
+      "remove": ["[aria-hidden=\"true\"]", ".lh"],
       "filter": ["removeAccordionLinks"]
     },
     "Privacy Policy": {
-      "fetch": "https://www.brusselsairlines.com/fr-fr/misc/avis-confidentialite.aspx",
-      "select": ["#contentContainer"],
-      "executeClientScripts": true
+      "fetch": "https://www.brusselsairlines.com/fr/fr/legal-notices/data-protection-and-privacy-notice",
+      "select": ["[role=\"main\"] .sidebar-content"],
+      "executeClientScripts": true,
+      "remove": ["[aria-hidden=\"true\"]", ".lh"],
+      "filter": ["removeAccordionLinks"]
     }
   }
 }

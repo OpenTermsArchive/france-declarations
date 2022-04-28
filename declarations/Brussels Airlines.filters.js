@@ -8,4 +8,3 @@ export function removeAccordionLinks(document) {
         aElement.removeAttribute("href")
     })
 }
- 
