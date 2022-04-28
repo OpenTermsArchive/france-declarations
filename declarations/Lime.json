@@ -4,7 +4,7 @@
     "Terms of Service": {
       "fetch": "https://www.li.me/fr-fr/user-agreement",
       "select": "main",
-      "remove": "img[src=\"https://www.li.me/hubfs/Assets/icon-email.png\"]"
+      "remove": "ul.rounded-full"
     },
     "Privacy Policy": {
       "fetch": "https://www.li.me/fr/legal/privacy-policy/",
