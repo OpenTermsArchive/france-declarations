@@ -3,8 +3,9 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.li.me/fr-fr/user-agreement",
-      "select": "main",
-      "remove": "ul.rounded-full"
+      "select": ["main"],
+      "remove": "ul.rounded-full",
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.li.me/fr/legal/privacy-policy/",
