@@ -2,7 +2,7 @@
   "name": "Lime",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://www.li.me/user-agreement/fr",
+      "fetch": "https://www.li.me/fr-fr/user-agreement",
       "select": "#francefrance",
       "remove": "img[src=\"https://www.li.me/hubfs/Assets/icon-email.png\"]"
     },
