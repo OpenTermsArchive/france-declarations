@@ -1,0 +1,12 @@
+{
+  "name": "Vueling",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vueling.com/fr/service-clients/politique-de-confidentialite",
+      "select": [".tfm--container"],
+      "remove": [".breadcrumb"],
+      "executeClientScripts": true,
+      "filter": ["correctTitles", "correctParagraphIndentation"]
+    }
+  }
+}
