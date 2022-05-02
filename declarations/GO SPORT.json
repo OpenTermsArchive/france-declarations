@@ -4,14 +4,14 @@
     "Privacy Policy": {
       "fetch": "https://www.go-sport.com/charte-protection-donnees-clients.html",
       "select": [
-        "#charte-protection-donnees-clients .experience-main"
+        ".experience-main"
       ],
       "remove": [".mainbanner-image"]
     },
     "Commercial Terms": {
       "fetch": "https://www.go-sport.com/cgv.html",
       "select": [
-        "#cgv .experience-main"
+        ".experience-main"
       ]
     }
   }
