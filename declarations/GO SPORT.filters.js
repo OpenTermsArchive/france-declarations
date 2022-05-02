@@ -4,6 +4,7 @@ import fetch from 'node-fetch';
 
 const dataURI = new DataURIParser();
 
+/** extract filename from an URL */
 function extractFilename(src = '') {
     return src.substring(src.lastIndexOf('/')+1)   
 }
@@ -19,7 +20,7 @@ export function saveImageFilename(document, { select: selector }) {
         const src = el.getAttribute("src")
         const filenameWithoutExtension = extractFilename(src).replace(/\.[^/.]+$/, "")
 
-        // replace default alt text by filename
+        // replace default alt text (and title) by filename
         el.setAttribute("alt", filenameWithoutExtension)
         el.setAttribute("title", filenameWithoutExtension)
     })
@@ -62,7 +63,6 @@ export function addTitles(document) {
     document.querySelectorAll("p > span[style=\"color: rgb(190, 190, 0);\"]").forEach(el => {
         const h4 = document.createElement('h4')
         h4.textContent = el.textContent;
-        console.log({h4Title: el.textContent})
         // add as heading
         el.replaceWith(h4)
     })
