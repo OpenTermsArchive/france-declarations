@@ -7,6 +7,12 @@
         "#charte-protection-donnees-clients .experience-main"
       ],
       "remove": [".mainbanner-image"]
+    },
+    "Commercial Terms": {
+      "fetch": "https://www.go-sport.com/cgv.html",
+      "select": [
+        "#cgv .experience-main"
+      ]
     }
   }
 }
