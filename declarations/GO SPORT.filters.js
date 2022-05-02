@@ -52,3 +52,18 @@ export function removeLinkInPicture(document) {
     const figure = document.querySelector(".ITC-figure")
     figure.replaceWith(figure.querySelector("img"))
 }
+
+/**
+ * Set <span> like "4.1 Nos engagements de sécurité et de confidentialité" as a HTML heading
+ * @param { Document } document 
+ */
+export function addTitles(document) {
+    // select <p> to avoid headings like "1. Nos engagements dans la protection des données personnelles"
+    document.querySelectorAll("p > span[style=\"color: rgb(190, 190, 0);\"]").forEach(el => {
+        const h4 = document.createElement('h4')
+        h4.textContent = el.textContent;
+        console.log({h4Title: el.textContent})
+        // add as heading
+        el.replaceWith(h4)
+    })
+}

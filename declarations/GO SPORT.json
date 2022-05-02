@@ -7,7 +7,7 @@
         ".experience-main"
       ],
       "remove": [".mainbanner-image"],
-      "filter": ["saveImageFilename", "removeLinkInPicture", "downloadImages"]
+      "filter": ["saveImageFilename", "removeLinkInPicture", "downloadImages", "addTitles"]
     },
     "Commercial Terms": {
       "fetch": "https://www.go-sport.com/cgv.html",
