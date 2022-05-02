@@ -1,0 +1,11 @@
+{
+  "name": "H&M",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www2.hm.com/fr_fr/service-clients/legal-and-privacy/terms-and-conditions.html",
+      "select": ["div.main"],
+      "executeClientScripts": true,
+      "filter": ["addTitles", "fixBrTag"]
+    }
+  }
+}
