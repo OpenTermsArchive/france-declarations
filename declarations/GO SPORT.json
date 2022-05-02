@@ -1,0 +1,12 @@
+{
+  "name": "GO SPORT",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.go-sport.com/charte-protection-donnees-clients.html",
+      "select": [
+        "#charte-protection-donnees-clients .experience-main"
+      ],
+      "remove": [".mainbanner-image"]
+    }
+  }
+}
