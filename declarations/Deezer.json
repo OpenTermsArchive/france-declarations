@@ -3,11 +3,15 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.deezer.com/legal/cgu",
-      "select": ["article"]
+      "select": [
+        "article"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.deezer.com/legal/personal-datas",
-      "select": ["article"]
+      "select": [
+        "article"
+      ]
     }
   }
 }

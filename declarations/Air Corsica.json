@@ -3,15 +3,21 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.aircorsica.com/politique-de-confidentialite.html",
-      "select": [".bg-article"]
+      "select": [
+        ".bg-article"
+      ]
     },
     "General Conditions of Sale": {
       "fetch": "https://www.aircorsica.com/conditions-generales-de-vente.html",
-      "select": [".bg-article"]
+      "select": [
+        ".bg-article"
+      ]
     },
     "Conditions of Carriage": {
       "fetch": "https://www.aircorsica.com/conditions-generales-transports.html",
-      "select": [".bg-article"]
+      "select": [
+        ".bg-article"
+      ]
     }
   }
 }

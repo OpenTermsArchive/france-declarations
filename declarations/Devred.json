@@ -3,7 +3,9 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.devred.com/general_terms_and_conditions_devred/",
-      "select": ["#maincontent"],
+      "select": [
+        "#maincontent"
+      ],
       "remove": [
         "img[src=\"https://www.devred.com/media/wysiwyg/paiement/paiement-carte-bancaire-visa-mastercard-amex.jpg\"]",
         "img[src=\"https://www.devred.com/media/wysiwyg/paiement/paiement-paypal-2.jpg\"]",
@@ -13,7 +15,9 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.devred.com/charte-protection-donnees",
-      "select": [".columns"]
+      "select": [
+        ".columns"
+      ]
     }
   }
 }

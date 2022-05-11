@@ -3,11 +3,15 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://static.canalplus.com/legal/donnees-personnelles.html",
-      "select": [".section"]
+      "select": [
+        ".section"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://static.canalplus.com/legal/cgu.html",
-      "select": [".section:not(#markdown)"]
+      "select": [
+        ".section:not(#markdown)"
+      ]
     }
   }
 }

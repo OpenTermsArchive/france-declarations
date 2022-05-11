@@ -3,11 +3,15 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.spotify.com/fr/legal/privacy-policy/",
-      "select": [".legal-body"]
+      "select": [
+        ".legal-body"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.spotify.com/fr/legal/end-user-agreement/",
-      "select": [".legal-body"]
+      "select": [
+        ".legal-body"
+      ]
     }
   }
 }

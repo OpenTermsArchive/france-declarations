@@ -3,7 +3,9 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.apple.com/fr/legal/internet-services/itunes/fr/terms.html",
-      "select": [".document-wrapper"]
+      "select": [
+        ".document-wrapper"
+      ]
     }
   }
 }

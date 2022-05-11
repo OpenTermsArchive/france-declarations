@@ -3,13 +3,23 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.c-and-a.com/fr/fr/shop/service/cgv",
-      "select": ["section > .container"],
-      "remove": [".box--navigation", "button[data-overlay-head=Navigation]"]
+      "select": [
+        "section > .container"
+      ],
+      "remove": [
+        ".box--navigation",
+        "button[data-overlay-head=Navigation]"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.c-and-a.com/fr/fr/shop/service/confidentialite",
-      "select": ["section > .container"],
-      "remove": [".box--navigation", "button[data-overlay-head=Navigation]"]
+      "select": [
+        "section > .container"
+      ],
+      "remove": [
+        ".box--navigation",
+        "button[data-overlay-head=Navigation]"
+      ]
     }
   }
 }

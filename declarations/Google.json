@@ -4,12 +4,18 @@
     "Privacy Policy": {
       "fetch": "https://policies.google.com/privacy?hl=fr-FR&gl=FR",
       "select": "div[role=article]",
-      "remove": ["img[src$='.svg']", "img[src^='data:image/svg+xml"]
+      "remove": [
+        "img[src$='.svg']",
+        "img[src^='data:image/svg+xml"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://policies.google.com/terms?hl=fr-FR&gl=FR",
       "select": "div[role=article]",
-      "remove": ["img[src$='.svg']", "img[src^='data:image/svg+xml"]
+      "remove": [
+        "img[src$='.svg']",
+        "img[src^='data:image/svg+xml"
+      ]
     }
   }
 }

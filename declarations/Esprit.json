@@ -3,12 +3,18 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.esprit.fr/cgv/terms-and-conditions.html",
-      "select": ["#maincontent"]
+      "select": [
+        "#maincontent"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.esprit.fr/charte-de-confidentialite-de-donnees-sur-la-boutiuqe-en-ligne/data-privacy-statement-online-shop.html",
-      "select": ["#maincontent"],
-      "remove": [".photo-tile-image"]
+      "select": [
+        "#maincontent"
+      ],
+      "remove": [
+        ".photo-tile-image"
+      ]
     }
   }
 }

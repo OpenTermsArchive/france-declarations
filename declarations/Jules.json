@@ -3,11 +3,17 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.jules.com/fr-fr/static/cgv.html",
-      "select": [".tetiereCus", "#accordionExample"]
+      "select": [
+        ".tetiereCus",
+        "#accordionExample"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.jules.com/fr-fr/static/politique-de-confidentialite.html",
-      "select": [".tetiereCus", ".container > .mb-5"]
+      "select": [
+        ".tetiereCus",
+        ".container > .mb-5"
+      ]
     }
   }
 }

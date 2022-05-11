@@ -3,11 +3,15 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.caroll.com/fr_fr/general/conditions-generales-de-vente.html",
-      "select": ["#primary"]
+      "select": [
+        "#primary"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.caroll.com/fr_fr/general/politique-de-confidentialite.html",
-      "select": ["#primary"]
+      "select": [
+        "#primary"
+      ]
     }
   }
 }

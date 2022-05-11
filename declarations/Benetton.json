@@ -3,11 +3,15 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://fr.benetton.com/privacy/privacy.html",
-      "select": ["#maincontent"]
+      "select": [
+        "#maincontent"
+      ]
     },
     "General Conditions of Sale": {
       "fetch": "https://fr.benetton.com/terms/terms.html",
-      "select": ["#maincontent"]
+      "select": [
+        "#maincontent"
+      ]
     }
   }
 }

@@ -3,13 +3,27 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://airmalta.com/fr/questions-juridiques-et-reglements/politique-de-confidentialite",
-      "select": [".hero-caption", ".main-content"],
-      "remove": [".breadcrumb", ".sidebar-menu-wrapper", ".cookie-banner"]
+      "select": [
+        ".hero-caption",
+        ".main-content"
+      ],
+      "remove": [
+        ".breadcrumb",
+        ".sidebar-menu-wrapper",
+        ".cookie-banner"
+      ]
     },
     "Conditions of Carriage": {
       "fetch": "https://airmalta.com/fr-fr/questions-juridiques-et-reglements/conditions-generales-de-transport",
-      "select": [".hero-caption", ".main-content"],
-      "remove": [".breadcrumb", ".sidebar-menu-wrapper", ".cookie-banner"]
+      "select": [
+        ".hero-caption",
+        ".main-content"
+      ],
+      "remove": [
+        ".breadcrumb",
+        ".sidebar-menu-wrapper",
+        ".cookie-banner"
+      ]
     }
   }
 }

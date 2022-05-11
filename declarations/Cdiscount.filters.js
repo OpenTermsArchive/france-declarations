@@ -3,10 +3,10 @@ export function recoverReplacementCharacters(document) {
   // were used for a `ê` and three were used for a `’`
   document.body.innerHTML = document.body.innerHTML.replace(
     /\uFFFD\uFFFD\uFFFD/g,
-    "’"
+    '’',
   );
   document.body.innerHTML = document.body.innerHTML.replace(
     /\uFFFD\uFFFD/g,
-    "ê"
+    'ê',
   );
 }

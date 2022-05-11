@@ -3,21 +3,34 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.tiktok.com/legal/terms-of-service?lang=fr",
-      "select": [".article-wrapper"]
+      "select": [
+        ".article-wrapper"
+      ]
     },
     "Trackers Policy": {
       "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=fr",
-      "select": [".article-wrapper"],
-      "remove": ["#settings-button"]
+      "select": [
+        ".article-wrapper"
+      ],
+      "remove": [
+        "#settings-button"
+      ]
     },
     "Copyright Claims Policy": {
       "fetch": "https://www.tiktok.com/legal/copyright-policy?lang=fr",
-      "select": [".article-wrapper"]
+      "select": [
+        ".article-wrapper"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.tiktok.com/legal/privacy-policy-eea?lang=fr",
-      "select": [".article-wrapper"],
-      "remove": [".language-selection", ".dropdown-title > img"]
+      "select": [
+        ".article-wrapper"
+      ],
+      "remove": [
+        ".language-selection",
+        ".dropdown-title > img"
+      ]
     }
   }
 }
