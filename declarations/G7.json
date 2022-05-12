@@ -3,14 +3,22 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.g7.fr/conditions-generales",
-      "select": ["#content-wrapper"],
-      "remove": ["#mmenu-overlay"],
+      "select": [
+        "#content-wrapper"
+      ],
+      "remove": [
+        "#mmenu-overlay"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.g7.fr/donnees-personnelles",
-      "select": ["#content-wrapper"],
-      "remove": ["#mmenu-overlay"],
+      "select": [
+        "#content-wrapper"
+      ],
+      "remove": [
+        "#mmenu-overlay"
+      ],
       "executeClientScripts": true
     }
   }

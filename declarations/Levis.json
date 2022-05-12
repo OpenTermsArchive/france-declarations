@@ -3,13 +3,19 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.levi.com/FR/fr_FR/legal/terms-and-conditions",
-      "select": [".lsco-container"],
+      "select": [
+        ".lsco-container"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.levi.com/FR/fr_FR/legal/privacy-policy",
-      "select": [".lsco-container"],
-      "remove": [".richtext-page-nav"],
+      "select": [
+        ".lsco-container"
+      ],
+      "remove": [
+        ".richtext-page-nav"
+      ],
       "executeClientScripts": true
     }
   }

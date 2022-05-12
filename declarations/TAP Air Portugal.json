@@ -9,7 +9,10 @@
     "Privacy Policy": {
       "fetch": "https://www.flytap.com/fr-fr/confidentialite",
       "select": ".root-main",
-      "remove": [".root-breadcrumb", ".wrapper__img"]
+      "remove": [
+        ".root-breadcrumb",
+        ".wrapper__img"
+      ]
     }
   }
 }

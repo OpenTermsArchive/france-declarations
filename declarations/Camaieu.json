@@ -3,12 +3,19 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.camaieu.fr/Content/conditions-generales-de-vente",
-      "select": ["#cgv"],
-      "remove": [".img-keyrus", ".img-ecritel"]
+      "select": [
+        "#cgv"
+      ],
+      "remove": [
+        ".img-keyrus",
+        ".img-ecritel"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.camaieu.fr/donneespersonnelles",
-      "select": ["#cgv"]
+      "select": [
+        "#cgv"
+      ]
     }
   }
 }

@@ -3,7 +3,9 @@
   "documents": {
     "Conditions of Carriage": {
       "fetch": "https://www.air-austral.com/cgt.html",
-      "select": ["#content"]
+      "select": [
+        "#content"
+      ]
     }
   }
 }

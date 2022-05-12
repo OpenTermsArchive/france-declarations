@@ -3,11 +3,15 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.kookai.fr/pages/conditions-generales-de-vente",
-      "select": [".main-content"]
+      "select": [
+        ".main-content"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.kookai.fr/pages/politique-de-confidentialite",
-      "select": [".main-content"]
+      "select": [
+        ".main-content"
+      ]
     }
   }
 }

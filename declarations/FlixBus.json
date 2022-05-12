@@ -3,13 +3,23 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.flixbus.fr/conditions-generales",
-      "select": [".flix-page-container"],
-      "remove": [".flix-breadcrumbs", ".footer-sizer"]
+      "select": [
+        ".flix-page-container"
+      ],
+      "remove": [
+        ".flix-breadcrumbs",
+        ".footer-sizer"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.flixbus.fr/confidentialite",
-      "select": [".flix-page-container"],
-      "remove": [".flix-breadcrumbs", ".footer-sizer"]
+      "select": [
+        ".flix-page-container"
+      ],
+      "remove": [
+        ".flix-breadcrumbs",
+        ".footer-sizer"
+      ]
     }
   }
 }

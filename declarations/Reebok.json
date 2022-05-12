@@ -3,7 +3,9 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.reebok.fr/help-topics-privacy_policy.html",
-      "select": ["#content"],
+      "select": [
+        "#content"
+      ],
       "executeClientScripts": true
     }
   }

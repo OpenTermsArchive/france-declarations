@@ -3,11 +3,15 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.marcel.cab/donnees-personnelles-clients/",
-      "select": ["#aeroport-paris"]
+      "select": [
+        "#aeroport-paris"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.marcel.cab/cgu/",
-      "select": ["#marcel-home"]
+      "select": [
+        "#marcel-home"
+      ]
     }
   }
 }

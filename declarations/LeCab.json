@@ -3,11 +3,17 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://lecab.fr/conditions-generales-de-vente/",
-      "select": [".breadcrumb_content", "div[data-elementor-type=\"wp-page\"]"]
+      "select": [
+        ".breadcrumb_content",
+        "div[data-elementor-type=\"wp-page\"]"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://lecab.fr/politique-de-confidentialite/",
-      "select": [".breadcrumb_content", "div[data-elementor-type=\"wp-page\"]"]
+      "select": [
+        ".breadcrumb_content",
+        "div[data-elementor-type=\"wp-page\"]"
+      ]
     }
   }
 }

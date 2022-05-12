@@ -3,12 +3,16 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://fr.shein.com/Terms-and-Conditions-a-399.html",
-      "select": [".c-new-article:nth-child(2)"],
+      "select": [
+        ".c-new-article:nth-child(2)"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://fr.shein.com/Privacy-Security-Policy-a-282.html",
-      "select": [".article-continer > div div"],
+      "select": [
+        ".article-continer > div div"
+      ],
       "executeClientScripts": true
     }
   }

@@ -3,7 +3,9 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.laredoute.fr/help_conditions.aspx",
-      "select": [".staticContent"],
+      "select": [
+        ".staticContent"
+      ],
       "remove": [
         "#sommaire",
         "a[title=\"imprimer\"]",
@@ -14,7 +16,9 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.laredoute.fr/espace-mentions_legales.aspx",
-      "select": ["#Rdte_mentions_content"],
+      "select": [
+        "#Rdte_mentions_content"
+      ],
       "executeClientScripts": true
     }
   }

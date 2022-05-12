@@ -3,11 +3,15 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.rueducommerce.fr/info/mentions-legales/cgv",
-      "select": ["#cms"]
+      "select": [
+        "#cms"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.rueducommerce.fr/info/mentions-legales/confidentialite",
-      "select": ["#cms"]
+      "select": [
+        "#cms"
+      ]
     }
   }
 }

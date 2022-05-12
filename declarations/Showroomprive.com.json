@@ -3,11 +3,15 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.showroomprive.com/politique_confidentialite.aspx",
-      "select": [".rep"]
+      "select": [
+        ".rep"
+      ]
     },
     "General Conditions of Sale": {
       "fetch": "https://www.showroomprive.com/contratcgv.aspx",
-      "select": ["#cph_middle_cgvContent"]
+      "select": [
+        "#cph_middle_cgvContent"
+      ]
     }
   }
 }

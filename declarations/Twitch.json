@@ -3,11 +3,15 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.twitch.tv/p/fr-fr/legal/terms-of-service/",
-      "select": [".typeset"]
+      "select": [
+        ".typeset"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.twitch.tv/p/fr-fr/legal/privacy-notice/",
-      "select": [".typeset"]
+      "select": [
+        ".typeset"
+      ]
     }
   }
 }

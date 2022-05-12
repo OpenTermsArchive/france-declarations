@@ -9,7 +9,10 @@
     },
     "Trackers Policy": {
       "fetch": "https://www.veepee.fr/registration/PrivacyPolicy?CountryCode=FR",
-      "select": ["#privacyPolicy", "#ot-sdk-cookie-policy"],
+      "select": [
+        "#privacyPolicy",
+        "#ot-sdk-cookie-policy"
+      ],
       "executeClientScripts": true
     }
   }

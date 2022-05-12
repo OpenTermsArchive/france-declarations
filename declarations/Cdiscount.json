@@ -3,12 +3,16 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.cdiscount.com/vie-privee-et-cookies.html",
-      "select": ["#scContent"],
+      "select": [
+        "#scContent"
+      ],
       "executeClientScripts": true
     },
     "General Conditions of Sale": {
       "fetch": "https://clients.cdiscount.com/simple/cgv.aspx",
-      "filter": ["recoverReplacementCharacters"],
+      "filter": [
+        "recoverReplacementCharacters"
+      ],
       "select": ".acDes"
     }
   }

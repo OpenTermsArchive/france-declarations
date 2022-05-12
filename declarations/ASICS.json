@@ -3,11 +3,15 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.asics.com/fr/fr-fr/customer-service/terms/terms.html",
-      "select": ["#primary"]
+      "select": [
+        "#primary"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.asics.com/privacy/privacy/fr-fr/privacy-french.html",
-      "select": [".wrap"]
+      "select": [
+        ".wrap"
+      ]
     }
   }
 }

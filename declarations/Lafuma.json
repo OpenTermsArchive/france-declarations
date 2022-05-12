@@ -3,11 +3,15 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.lafuma.com/fr/cgv.html/",
-      "select": [".main-container "]
+      "select": [
+        ".main-container "
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.lafuma.com/fr/politique-de-confidentialite.html/",
-      "select": [".main-container"]
+      "select": [
+        ".main-container"
+      ]
     }
   }
 }

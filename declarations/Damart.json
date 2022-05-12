@@ -3,11 +3,15 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.damart.fr/conditions-generales-de-vente",
-      "select": [".container-cgv"]
+      "select": [
+        ".container-cgv"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.damart.fr/donnees-personnelles-et-cookies",
-      "select": [".content-rgpd"]
+      "select": [
+        ".content-rgpd"
+      ]
     }
   }
 }

@@ -3,8 +3,12 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://airalgerie.dz/mentions-legales/politique-de-confidentialite/",
-      "select": [".main"],
-      "remove": [".page-top-breadcrumbs-wrapper"]
+      "select": [
+        ".main"
+      ],
+      "remove": [
+        ".page-top-breadcrumbs-wrapper"
+      ]
     },
     "Conditions of Carriage": {
       "fetch": "https://airalgerie.dz/wp-content/uploads/2021/01/conditions-generales-de-transport-2021.pdf"

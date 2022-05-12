@@ -3,14 +3,24 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.vertbaudet.fr/page/conditions_vente.htm?intnavid=footer_CGV",
-      "select": [".vb-static--container"],
-      "remove": [".vb-page-cgv-content__text > img"],
-      "filter": ["removeJavascriptLinks"]
+      "select": [
+        ".vb-static--container"
+      ],
+      "remove": [
+        ".vb-page-cgv-content__text > img"
+      ],
+      "filter": [
+        "removeJavascriptLinks"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.vertbaudet.fr/page/vie-privee.htm?intnavid=footer_confidentialite",
-      "select": [".vb-static--container"],
-      "remove": [".vb-page-cgv-content__text > img"]
+      "select": [
+        ".vb-static--container"
+      ],
+      "remove": [
+        ".vb-page-cgv-content__text > img"
+      ]
     }
   }
 }

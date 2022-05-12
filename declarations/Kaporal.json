@@ -3,13 +3,21 @@
   "documents": {
     "General Conditions of Sale": {
       "fetch": "https://www.kaporal.com/fr_fr/cgv",
-      "select": [".page-content"],
-      "remove": [".extendedcontent-col1"]
+      "select": [
+        ".page-content"
+      ],
+      "remove": [
+        ".extendedcontent-col1"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.kaporal.com/fr_fr/politique-de-confidentialite",
-      "select": [".main-content"],
-      "remove": [".breadcrumb"]
+      "select": [
+        ".main-content"
+      ],
+      "remove": [
+        ".breadcrumb"
+      ]
     }
   }
 }

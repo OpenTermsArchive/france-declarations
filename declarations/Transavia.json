@@ -8,7 +8,10 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.transavia.com/fr-FR/juridique/confidentialite/",
-      "select": ["#top", ".content-block"]
+      "select": [
+        "#top",
+        ".content-block"
+      ]
     }
   }
 }

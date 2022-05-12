@@ -2,14 +2,18 @@
   "General Conditions of Sale": [
     {
       "fetch": "https://www.e.leclerc/e/conditions-generales-de-vente",
-      "select": ["app-images-wrapper"],
+      "select": [
+        "app-images-wrapper"
+      ],
       "validUntil": "2022-02-17T15:47:38+01:00"
     }
   ],
   "Privacy Policy": [
     {
       "fetch": "https://www.e.leclerc/e/protection-donnees",
-      "select": ["app-images-wrapper"],
+      "select": [
+        "app-images-wrapper"
+      ],
       "validUntil": "2022-02-17T15:47:38+01:00"
     }
   ]
