@@ -3,7 +3,7 @@
   "documents": {
       "Privacy Policy": {
           "fetch": "https://www.iberia.com/fr/informations-sur-la-confidentialite/",
-          "select": ["article"],
+          "select":[".ibe-infocheckin__header", "article"],
           "remove": [".ibe-accordion__options"],
           "executeClientScripts": true,
           "filter": ["setpreviousVersionsLink", "removeAccordionsLinks"]
