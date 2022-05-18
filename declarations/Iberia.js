@@ -1,4 +1,4 @@
-export function setpreviousVersionsLink(document) {
+export function makePreviousVersionsLinksClickable(document) {
     document.querySelectorAll("a[title][data-contenttype]").forEach(aElement => {
         const modalTitle = aElement.getAttribute("title")
         const contenttype = aElement.getAttribute("data-contenttype")
