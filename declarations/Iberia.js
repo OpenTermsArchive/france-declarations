@@ -20,7 +20,7 @@ export function setpreviousVersionsLink(document) {
     })
 }
 
-export function removeAccordionsLinks(document) {
+export function removeEmptyLinks(document) {
     Array.from(document.querySelectorAll('[href="#"]')).map((link) =>
         link.removeAttribute("href")
     );
