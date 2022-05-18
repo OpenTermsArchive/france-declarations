@@ -1,6 +1,3 @@
-/**
- * @param { Document } document
- */
 export function setpreviousVersionsLink(document) {
     document.querySelectorAll("a[title][data-contenttype]").forEach(aElement => {
         const modalTitle = aElement.getAttribute("title")
@@ -23,9 +20,6 @@ export function setpreviousVersionsLink(document) {
     })
 }
 
-/**
- * @param { Document } document
- */
 export function removeAccordionsLinks(document) {
     Array.from(document.querySelectorAll('[href="#"]')).map((link) =>
         link.removeAttribute("href")
