@@ -7,16 +7,15 @@
         ".mainContent"
       ],
       "remove": ".faqQuestion, .topLink, [href=\"#top\"]",
-      "filter": ["removeTitlesWhiteSpaces", "deleteReturnToTopOperator", "addTableHeaderOnCommercialTerms", "commercialTermsTableH2toH3", "addExternalLinks"],
+      "filter": ["removeTitlesWhiteSpaces", "deleteReturnToTopOperator"],
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.galerieslafayette.com/service/service-confidence",
       "select": [
-        ".faqQuestion > ul > li",
-        ".faqRound"
+        ".mainContent"
       ],
-      "filter": ["addTableHeader", "mergeTables", "removeEmptyItemsInTOC", "setTitleH4"],
+      "remove": ".faqQuestion",
       "executeClientScripts": true
     }
   }
