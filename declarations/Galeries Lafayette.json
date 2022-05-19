@@ -4,9 +4,9 @@
     "Commercial Terms": {
       "fetch": "https://www.galerieslafayette.com/service/conditions-generals",
       "select": [
-        ".faqRound"
+        ".mainContent"
       ],
-      "remove": ".topLink, [href=\"#top\"]",
+      "remove": ".faqQuestion, .topLink, [href=\"#top\"]",
       "filter": ["addArticles", "deleteReturnToTheTop", "addTableHeaderOnCommercialTerms", "commercialTermsTableH2toH3", "addExternalLinks"],
       "executeClientScripts": true
     },
