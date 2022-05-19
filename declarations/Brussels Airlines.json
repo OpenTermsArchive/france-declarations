@@ -6,22 +6,18 @@
       "select": "[role=\"main\"]",
       "executeClientScripts": true,
       "remove": "[aria-hidden=\"true\"]",
-      "filter": ["removeAccordionLinks"]
+      "filter": [
+        "removeAccordionLinks"
+      ]
     },
     "Privacy Policy": {
-<<<<<<< HEAD
-      "fetch": "https://www.brusselsairlines.com/fr-fr/misc/avis-confidentialite.aspx",
-      "select": [
-        "#contentContainer"
-      ],
-      "executeClientScripts": true
-=======
       "fetch": "https://www.brusselsairlines.com/fr/fr/legal-notices/data-protection-and-privacy-notice",
       "select": "[role=\"main\"]",
       "executeClientScripts": true,
       "remove": "[aria-hidden=\"true\"]",
-      "filter": ["removeAccordionLinks"]
->>>>>>> ffa4d02 (Fix #380 : fix Privacy Policy (new URL and apply same config))
+      "filter": [
+        "removeAccordionLinks"
+      ]
     }
   }
 }
