@@ -9,8 +9,5 @@
   },
   "devDependencies": {
     "open-terms-archive": "git+https://git@github.com/ambanum/OpenTermsArchive#main"
-  },
-  "dependencies": {
-    "links-finder": "^1.0.0"
   }
 }

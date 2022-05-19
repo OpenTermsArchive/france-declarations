@@ -3,18 +3,18 @@
   "documents": {
     "Commercial Terms": {
       "fetch": "https://www.galerieslafayette.com/service/conditions-generals",
-      "select": [
-        ".mainContent"
+      "select": ".mainContent",
+      "remove": [
+        ".faqQuestion",
+        ".topLink",
+        "[href=\"#top\"]"
       ],
-      "remove": ".faqQuestion, .topLink, [href=\"#top\"]",
       "filter": ["removeTitlesWhiteSpaces", "deleteReturnToTopOperator"],
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.galerieslafayette.com/service/service-confidence",
-      "select": [
-        ".mainContent"
-      ],
+      "select": ".mainContent",
       "remove": ".faqQuestion",
       "executeClientScripts": true
     }
