@@ -3,9 +3,9 @@
   "documents": {
     "Conditions of Carriage": {
       "fetch": "https://www.brusselsairlines.com/fr/fr/legal-notices/terms-and-conditions-conditions-of-carriage",
-      "select": ["[role=\"main\"] .sidebar-content"],
+      "select": "[role=\"main\"]",
       "executeClientScripts": true,
-      "remove": ["[aria-hidden=\"true\"]", ".lh"],
+      "remove": "[aria-hidden=\"true\"]",
       "filter": ["removeAccordionLinks"]
     },
     "Privacy Policy": {
@@ -17,9 +17,9 @@
       "executeClientScripts": true
 =======
       "fetch": "https://www.brusselsairlines.com/fr/fr/legal-notices/data-protection-and-privacy-notice",
-      "select": ["[role=\"main\"] .sidebar-content"],
+      "select": "[role=\"main\"]",
       "executeClientScripts": true,
-      "remove": ["[aria-hidden=\"true\"]", ".lh"],
+      "remove": "[aria-hidden=\"true\"]",
       "filter": ["removeAccordionLinks"]
 >>>>>>> ffa4d02 (Fix #380 : fix Privacy Policy (new URL and apply same config))
     }
