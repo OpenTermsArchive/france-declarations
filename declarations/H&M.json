@@ -5,7 +5,9 @@
       "fetch": "https://www2.hm.com/fr_fr/service-clients/legal-and-privacy/terms-and-conditions.html",
       "select": ".page-content",
       "executeClientScripts": true,
-      "filter": ["fixBrTag"]
+      "filter": [
+        "fixBrTag"
+      ]
     }
   }
 }
