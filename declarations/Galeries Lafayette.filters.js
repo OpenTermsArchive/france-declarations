@@ -1,10 +1,13 @@
 import { wrapLinks } from 'links-finder'
 
 /**
- * normalize items in TOC
- * @param { Document } document
- */
-export function addArticles(document) {
+* Because of the presence of a <p> inside <hx> there is unnecessary spaces in markdown
+* DOM Source:
+* <h2 class="delivery-title">
+* <a name="SCItemConditions2"><p>ARTICLE I. OBJET</p></a>
+* </h2>
+**/
+export function removeTitlesWhiteSpaces(document) {
     document.querySelectorAll(".delivery-title").forEach(el => {
         if (el.textContent.trim().length) {
             el.innerHTML = el.textContent.trim()
@@ -14,7 +17,7 @@ export function addArticles(document) {
 
 /**
  * delete all `<sup>></sup>` (from some buttons "Retour en haut de la page")
- * @param { Document } document 
+ * @param { Document } document
  */
 export function deleteReturnToTheTop(document) {
     document.querySelectorAll("sup").forEach(el => {
@@ -90,7 +93,7 @@ export function removeEmptyItemsInTOC(document) {
  * =>
  * ● [https://www.cofinoga.fr/carte-GL-mastercard](https://www.cofinoga.fr/carte-GL-mastercard)
  * ```
- * @param { Document } document 
+ * @param { Document } document
  */
 export function addExternalLinks(document) {
     document.querySelectorAll("p").forEach(el => {

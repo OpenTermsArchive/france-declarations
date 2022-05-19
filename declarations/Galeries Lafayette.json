@@ -7,7 +7,7 @@
         ".mainContent"
       ],
       "remove": ".faqQuestion, .topLink, [href=\"#top\"]",
-      "filter": ["addArticles", "deleteReturnToTheTop", "addTableHeaderOnCommercialTerms", "commercialTermsTableH2toH3", "addExternalLinks"],
+      "filter": ["removeTitlesWhiteSpaces", "deleteReturnToTheTop", "addTableHeaderOnCommercialTerms", "commercialTermsTableH2toH3", "addExternalLinks"],
       "executeClientScripts": true
     },
     "Privacy Policy": {
