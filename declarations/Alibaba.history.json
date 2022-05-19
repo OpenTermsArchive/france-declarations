@@ -9,6 +9,19 @@
         ".back-to-list"
       ],
       "validUntil": "2022-03-05T18:08:34+01:00"
+    },
+    {
+      "fetch": "https://rule.alibaba.com/rule/detail/4672.htm?",
+      "select": [
+        "#rule-detail-body"
+      ],
+      "remove": [
+        ".back-to-list",
+        ".evalutaion",
+        ".rule-text-indicate"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-05-19T13:52:11.378Z"
     }
   ],
   "Terms of Service": [
@@ -21,6 +34,19 @@
         ".back-to-list"
       ],
       "validUntil": "2022-03-05T18:08:32+01:00"
+    },
+    {
+      "fetch": "https://rule.alibaba.com/rule/detail/4671.htm?",
+      "select": [
+        "#rule-detail-body"
+      ],
+      "remove": [
+        ".back-to-list",
+        ".evalutaion",
+        ".rule-text-indicate"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-05-19T13:52:11.378Z"
     }
   ]
 }
