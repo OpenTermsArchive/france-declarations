@@ -3,11 +3,13 @@
   "documents": {
     "Commercial Terms": {
       "fetch": "https://www.go-sport.com/cgv/",
-      "select": ["#content"]
+      "select": "[role=\"main\"]",
+      "remove": ".mainbanner-container"
     },
     "Privacy Policy": {
       "fetch": "https://www.go-sport.com/charte-protection-donnees-clients/",
-      "select": ["#content"]
+      "select": "[role=\"main\"]",
+      "remove": ".mainbanner-container"
     }
   }
 }
