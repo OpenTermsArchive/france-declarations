@@ -10,7 +10,7 @@
     "Privacy Policy": {
       "fetch": "https://www.asics.com/privacy/privacy/fr-fr/privacy-french.html",
       "select": [
-        ".wrap"
+        "#doc-wrapper"
       ]
     }
   }
