@@ -9,7 +9,10 @@
         ".topLink",
         "[href=\"#top\"]"
       ],
-      "filter": ["removeTitlesWhiteSpaces", "deleteReturnToTopOperator"],
+      "filter": [
+        "removeTitlesWhiteSpaces",
+        "deleteReturnToTopOperator"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {

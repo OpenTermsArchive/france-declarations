@@ -8,11 +8,11 @@
  * </h2>
  */
 export function removeTitlesWhiteSpaces(document) {
-    document.querySelectorAll(".delivery-title").forEach(el => {
-        if (el.textContent.trim().length) {
-            el.innerHTML = el.textContent.trim()
-        }
-    })
+  document.querySelectorAll('.delivery-title').forEach(el => {
+    if (el.textContent.trim().length) {
+      el.innerHTML = el.textContent.trim();
+    }
+  });
 }
 
 /**
@@ -24,9 +24,9 @@ export function removeTitlesWhiteSpaces(document) {
  * </div>
  */
 export function deleteReturnToTopOperator(document) {
-    document.querySelectorAll("sup").forEach(el => {
-        if (el.textContent === '>') {
-            el.remove()
-        }
-    })
+  document.querySelectorAll('sup').forEach(el => {
+    if (el.textContent === '>') {
+      el.remove();
+    }
+  });
 }
