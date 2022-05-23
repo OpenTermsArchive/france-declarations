@@ -1,0 +1,12 @@
+{
+  "Conditions of Carriage": [
+    {
+      "fetch": "https://www.brusselsairlines.com/fr-fr/misc/conditions-generales-de-transport.aspx",
+      "select": [
+        "#contentContainer"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-04-28T11:49:00.000Z"
+    }
+  ]
+}
