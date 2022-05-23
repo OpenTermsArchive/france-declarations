@@ -10,12 +10,8 @@
     "Privacy Policy": {
       "fetch": "https://www.air-austral.com/mentions-legales.html",
       "select": {
-        "startBefore": "#content > div[itemprop=\"text\"] > h2:nth-of-type(5)",
-        "endBefore": "#content > div[itemprop=\"text\"] > h2:nth-of-type(6)"
-      },
-      "remove": {
-        "startBefore": "#content > div[itemprop=\"text\"] > h3:nth-of-type(5)",
-        "endBefore": "#content > div[itemprop=\"text\"] > h3:nth-of-type(6)"
+        "startBefore": "#content > div[itemprop=\"text\"] > h3:nth-of-type(1)",
+        "endBefore": "#content > div[itemprop=\"text\"] > h3:nth-of-type(5)"
       }
     },
     "Trackers Policy": {
