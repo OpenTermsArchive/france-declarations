@@ -1,0 +1,18 @@
+{
+  "General Conditions of Sale": [
+    {
+      "fetch": "https://www.devred.com/general_terms_and_conditions_devred/",
+      "select": [
+        "#maincontent"
+      ],
+      "remove": [
+        "img[src=\"https://www.devred.com/media/wysiwyg/paiement/paiement-carte-bancaire-visa-mastercard-amex.jpg\"]",
+        "img[src=\"https://www.devred.com/media/wysiwyg/paiement/paiement-paypal-2.jpg\"]",
+        "img[src=\"https://assets.devred.com/static/version1605593851/frontend/Devred/default/fr_FR/images/payment/alma_logo_white.png\"]",
+        ".fs-guest-wishlist"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-05-24T14:48:43+02:00"
+    }
+  ]
+}
