@@ -1,0 +1,16 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.printemps.com/fr/fr/protection-donnees-personnelles",
+      "select": [
+        "div[data-home-line-type=\"Standard\"]"
+      ],
+      "remove": [
+        ".navigation-wrapper",
+        "footer"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-05-24T14:36:16+02:00"
+    }
+  ]
+}
