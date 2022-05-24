@@ -10,7 +10,7 @@
     "General Conditions of Sale": {
       "fetch": "https://www.salto.fr/conditions-generales-d-abonnement",
       "select": [
-        ".static-page__content"
+        ".sc-15jqm5i-1"
       ]
     },
     "Privacy Policy": {

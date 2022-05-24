@@ -1,0 +1,11 @@
+{
+  "General Conditions of Sale": [
+    {
+      "fetch": "https://www.salto.fr/conditions-generales-d-abonnement",
+      "select": [
+        ".static-page__content"
+      ],
+      "validUntil": "2022-04-26T20:36:00+02:00"
+    }
+  ]
+}
