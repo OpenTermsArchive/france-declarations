@@ -7,7 +7,7 @@
         "#maincontent"
       ],
       "remove": [
-        "#paiemement > ul > img",
+        "#paiemement ~ ul img",
         ".fs-guest-wishlist"
       ],
       "filter": [
