@@ -7,6 +7,12 @@
         ".document > .container"
       ]
     },
+       "Trackers Policy": {
+      "fetch": "https://bolt.eu/fr/cookie-declaration/,
+      "executeClientScripts": true,
+      "select": [".container"
+      ]
+    }, 
     "Privacy Policy": {
       "fetch": "https://bolt.eu/fr/legal/fr/privacy-for-riders/",
       "select": [
