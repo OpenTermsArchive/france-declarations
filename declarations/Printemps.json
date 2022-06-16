@@ -12,7 +12,8 @@
         ".header__burger",
         ".navigation-wrapper",
         "footer"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "General Conditions of Sale": {
       "fetch": "https://www.printemps.com/fr/fr/conditions-generales-vente-utilisation",
@@ -21,7 +22,8 @@
       ],
       "remove": [
         ".navigation-wrapper",
-        "footer"
+        "footer",
+        ".pcom-media-wrapper"
       ],
       "executeClientScripts": true
     }
