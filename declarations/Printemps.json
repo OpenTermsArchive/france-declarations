@@ -22,7 +22,8 @@
       ],
       "remove": [
         ".navigation-wrapper",
-        "footer"
+        "footer",
+        ".pcom-media-wrapper"
       ],
       "executeClientScripts": true
     }
