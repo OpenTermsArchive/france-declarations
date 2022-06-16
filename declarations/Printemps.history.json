@@ -11,6 +11,34 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2022-05-24T14:36:16+02:00"
+    },
+    {
+      "fetch": "https://www.printemps.com/fr/fr/protection-donnees-personnelles",
+      "select": [
+        "div[data-home-line-type=\"Standard\"]"
+      ],
+      "remove": [
+        "div[data-squelette-id=\"20013\"]",
+        "div[data-squelette-id=\"20012\"]",
+        ".header__burger",
+        ".navigation-wrapper",
+        "footer"
+      ],
+      "validUntil": "2022-05-24T08:56:00.000Z"
+    }
+  ],
+  "General Conditions of Sale": [
+    {
+      "fetch": "https://www.printemps.com/fr/fr/conditions-generales-vente-utilisation",
+      "select": [
+        "div[data-home-line-type=\"Standard\"]"
+      ],
+      "remove": [
+        ".navigation-wrapper",
+        "footer"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-05-31T08:56:00.000Z"
     }
   ]
 }
