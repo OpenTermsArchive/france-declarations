@@ -10,8 +10,10 @@
         ".vb-page-cgv-content__text > img"
       ],
       "filter": [
-        "removeJavascriptLinks"
-      ]
+        "removeJavascriptLinks",
+        "removeFRZQueryParam"
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.vertbaudet.fr/page/vie-privee.htm?intnavid=footer_confidentialite",
