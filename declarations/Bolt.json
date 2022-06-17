@@ -7,8 +7,8 @@
         ".document > .container"
       ]
     },
-       "Trackers Policy": {
-      "fetch": "https://bolt.eu/fr/cookie-declaration/,
+      "Trackers Policy": {
+      "fetch": "https://bolt.eu/fr/cookie-declaration/",
       "executeClientScripts": true,
       "select": [".container"
       ]
