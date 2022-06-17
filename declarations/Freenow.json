@@ -1,0 +1,20 @@
+{
+  "name": "Freenow",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://free-now.com/fr/gtc-b2b/",
+      "executeClientScripts": true,
+      "select": ".content"
+    },
+    "Privacy Policy": {
+      "fetch": "https://free-now.com/fr/driver-privacy-policies/",
+      "executeClientScripts": true,
+      "select": ".content"
+    },
+    "Imprint": {
+      "fetch": "https://www.free-now.com/fr/mentions-legales/",
+      "executeClientScripts": true,
+      "select": ".inner"
+    }
+  }
+}

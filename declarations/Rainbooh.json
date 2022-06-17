@@ -1,0 +1,10 @@
+{
+  "name": "Gorillas",
+  "documents": {
+    "Imprint": {
+      "fetch": "https://www.rainbooh.com/mentions-legales",
+      "executeClientScripts": true,
+      "select": ".prose"
+    }
+  }
+}

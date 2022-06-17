@@ -1,0 +1,20 @@
+{
+  "name": "ShellRecharge",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://shellrecharge.com/fr-fr/conditions-generales-de-vente",
+      "executeClientScripts": true,
+      "select": ".main-nav"
+    },
+    "Trackers Policy": {
+      "fetch": "https://shellrecharge.com/fr-fr/politique-relative-aux-cookies",
+      "executeClientScripts": true,
+      "select": ".main-nav"
+    },
+    "Privacy Policy": {
+      "fetch": "https://shellrecharge.com/fr-fr/politique-de-confidentialite",
+      "executeClientScripts": true,
+      "select": ".main-nav"
+    }
+  }
+}
