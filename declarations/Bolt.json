@@ -10,7 +10,8 @@
     "Trackers Policy": {
       "fetch": "https://bolt.eu/fr/cookie-declaration/",
       "executeClientScripts": true,
-      "select": [".container"
+      "select": [
+        ".container"
       ]
     },
     "Privacy Policy": {
