@@ -3,6 +3,7 @@ export function removeJavascriptLinks(document) {
     el.removeAttribute('href');
   });
 }
+
 export function removeFRZQueryParam(document) {
   removeQueryParam(document, 'frz-v');
 }
@@ -21,14 +22,19 @@ function removeQueryParam(document, queryParam) {
 
 export function stopImagesSourcesBlinking(document) {
   const sourcesMapping = {
-    'https://www.vertbaudet.fr/fstrz/r/s/c/media.vertbaudet.fr/medias/44/0/26809/1304986041/volumineux.png.avif?frz-v=89': 'https://media.vertbaudet.fr/medias/44/0/26809/1304986041/volumineux.png',
-    'https://www.vertbaudet.fr/fstrz/r/s/media.vertbaudet.fr/medias/44/0/26809/1304986041/tresvolumineux.svg?frz-v=89': 'https://media.vertbaudet.fr/medias/44/0/26809/1304986041/tresvolumineux.svg',
+    'https://www.vertbaudet.fr/fstrz/r/s/c/media.vertbaudet.fr/medias/44/0/26809/1304986041/volumineux.png.avif': 'https://media.vertbaudet.fr/medias/44/0/26809/1304986041/volumineux.png',
+    'https://www.vertbaudet.fr/fstrz/r/s/media.vertbaudet.fr/medias/44/0/26809/1304986041/tresvolumineux.svg': 'https://media.vertbaudet.fr/medias/44/0/26809/1304986041/tresvolumineux.svg',
   };
+  const regexFRZ = /\?frz-v=(.*)/gm;
 
-  document.querySelectorAll('img').forEach(el => {
-    Object.keys(sourcesMapping).forEach(srcToReplace => {
-      if (el.getAttribute('src') === srcToReplace) {
-        el.setAttribute('src', sourcesMapping[srcToReplace]);
+  document.querySelectorAll('img').forEach(image => {
+    const srcWithoutFRZQueryParam = image.getAttribute('src').replace(regexFRZ, '');
+
+    image.setAttribute('src', srcWithoutFRZQueryParam);
+
+    Object.entries(sourcesMapping).forEach(([ value, replacement ]) => {
+      if (image.getAttribute('src') === value) {
+        image.setAttribute('src', replacement);
       }
     });
   });
