@@ -21,9 +21,10 @@ function removeQueryParam(document, queryParam) {
 
 export function stopImagesSourcesBlinking(document) {
   const sourcesMapping = {
-    "https://www.vertbaudet.fr/fstrz/r/s/c/media.vertbaudet.fr/medias/44/0/26809/1304986041/volumineux.png.avif?frz-v=89":"https://media.vertbaudet.fr/medias/44/0/26809/1304986041/volumineux.png",
-    "https://www.vertbaudet.fr/fstrz/r/s/media.vertbaudet.fr/medias/44/0/26809/1304986041/tresvolumineux.svg?frz-v=89":"https://media.vertbaudet.fr/medias/44/0/26809/1304986041/tresvolumineux.svg"
+    'https://www.vertbaudet.fr/fstrz/r/s/c/media.vertbaudet.fr/medias/44/0/26809/1304986041/volumineux.png.avif?frz-v=89': 'https://media.vertbaudet.fr/medias/44/0/26809/1304986041/volumineux.png',
+    'https://www.vertbaudet.fr/fstrz/r/s/media.vertbaudet.fr/medias/44/0/26809/1304986041/tresvolumineux.svg?frz-v=89': 'https://media.vertbaudet.fr/medias/44/0/26809/1304986041/tresvolumineux.svg',
   };
+
   document.querySelectorAll('img').forEach(el => {
     Object.keys(sourcesMapping).forEach(srcToReplace => {
       if (el.getAttribute('src') === srcToReplace) {
