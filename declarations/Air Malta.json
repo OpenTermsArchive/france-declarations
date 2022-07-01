@@ -11,7 +11,8 @@
         ".breadcrumb",
         ".sidebar-menu-wrapper",
         ".cookie-banner"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Conditions of Carriage": {
       "fetch": "https://airmalta.com/fr-fr/questions-juridiques-et-reglements/conditions-generales-de-transport",

@@ -2,15 +2,15 @@
   "name": "Salto",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://www.salto.fr/conditions-generales-d-utilisation",
+      "fetch": "https://www.salto.fr/conditions-generales-d-utilisation-m6web",
       "select": [
-        ".static-page__content"
+        ".sc-15jqm5i-1"
       ]
     },
     "General Conditions of Sale": {
       "fetch": "https://www.salto.fr/conditions-generales-d-abonnement",
       "select": [
-        ".static-page__content"
+        ".sc-15jqm5i-1"
       ]
     },
     "Privacy Policy": {

@@ -11,7 +11,8 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.li.me/fr/legal/privacy-policy/",
-      "select": ".content"
+      "select": ".content",
+      "executeClientScripts": true
     }
   }
 }
