@@ -3,7 +3,7 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.tiktok.com/legal/terms-of-service-eea?lang=fr",
-"select": [
+      "select": [
         ".article-wrapper"
       ],
       "remove": [
