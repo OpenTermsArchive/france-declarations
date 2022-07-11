@@ -2,9 +2,13 @@
   "name": "TikTok",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://www.tiktok.com/legal/terms-of-service?lang=fr",
+      "fetch": "https://www.tiktok.com/legal/terms-of-service-eea?lang=fr",
       "select": [
         ".article-wrapper"
+      ],
+      "remove": [
+        ".language-selection",
+        ".dropdown-title > img"
       ]
     },
     "Trackers Policy": {

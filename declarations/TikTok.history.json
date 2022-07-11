@@ -1,0 +1,11 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.tiktok.com/legal/terms-of-service?lang=fr",
+      "select": [
+        ".article-wrapper"
+      ],
+      "validUntil": "2022-06-07T12:44:00.000Z"
+    }
+  ]
+}
