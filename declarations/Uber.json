@@ -21,7 +21,9 @@
     "Trackers Policy": {
       "fetch": "https://www.uber.com/legal/fr/document/?name=cookie-notice&country=france&lang=fr",
       "executeClientScripts": true,
-      "select": ".ka"
+      "select": [
+        "#legal-info"
+      ]
     }
   }
 }
