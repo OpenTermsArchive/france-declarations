@@ -11,7 +11,7 @@
       "fetch": "https://bolt.eu/fr/cookie-declaration/",
       "executeClientScripts": true,
       "select": [
-        ".container"
+        "#cookie-declaration"
       ]
     },
     "Privacy Policy": {
