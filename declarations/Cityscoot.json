@@ -1,0 +1,17 @@
+{
+  "name": "Cityscoot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cityscoot.eu/paris/cgu",
+      "select": [
+        "#cgu"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cityscoot.eu/politique-de-confidentialite",
+      "select": [
+        "#cgu"
+      ]
+    }
+  }
+}
