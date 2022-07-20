@@ -7,7 +7,7 @@
     },
     "Trackers Policy": {
       "fetch": "https://bolt.eu/fr/cookie-declaration/",
-      "select": ".container"
+      "select": [".cookie-declaration"]
     },
     "Privacy Policy": {
       "fetch": "https://bolt.eu/fr/legal/fr/privacy-for-riders/",
