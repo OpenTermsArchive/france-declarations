@@ -7,8 +7,8 @@
     "Privacy Policy": {
       "fetch": "https://media.doctolib.com/image/upload/v1657277812/legal/B2C-PrivacyPolicy-July-22-FR.pdf"
     },
- "Trackers Policy": {
+    "Trackers Policy": {
       "fetch": "https://media.doctolib.com/image/upload/v1629388404/legal/Politique_cookies_B2C_Website_and_App_-_V0821.pdf"
-    },
+    }
   }
 }
