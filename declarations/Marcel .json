@@ -1,0 +1,11 @@
+{
+  "name": "Marcel ",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.marcel.cab/cgu/",
+      "select": [
+        ".page-container"
+      ]
+    }
+  }
+}
