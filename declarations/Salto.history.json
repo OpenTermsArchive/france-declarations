@@ -16,5 +16,14 @@
       ],
       "validUntil": "2022-04-26T20:36:00+02:00"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.salto.fr/politique-de-confidentialite/politique-de-traitement-des-donnees-personnelles",
+      "select": [
+        ".sc-2ne75f-1"
+      ],
+      "validUntil": "2022-08-30T11:50:11Z"
+    }
   ]
 }

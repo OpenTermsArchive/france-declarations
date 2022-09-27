@@ -16,7 +16,14 @@
     "Privacy Policy": {
       "fetch": "https://www.salto.fr/politique-de-confidentialite/politique-de-traitement-des-donnees-personnelles",
       "select": [
-        ".sc-2ne75f-1"
+        {
+          "startAfter": "header[role=\"banner\"]",
+          "endBefore": "footer"
+        }
+      ],
+      "remove": [
+        "a[href=\"/politique-de-confidentialite/politique-de-gestion-des-cookies\"]",
+        "a[href=\"/politique-de-confidentialite/nos-engagements\"]"
       ]
     }
   }
