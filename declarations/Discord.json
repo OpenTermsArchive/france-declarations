@@ -3,9 +3,8 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://discord.com/terms?locale=fr",
-      "select": ".document-25D7S4",
-      "remove": [
-        "a[href=\"#[object-object]\"]"
+      "select": [
+        ".section-rich"
       ]
     },
     "Privacy Policy": {
