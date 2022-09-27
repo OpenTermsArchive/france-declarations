@@ -8,5 +8,15 @@
       ],
       "validUntil": "2022-09-17T00:33:40Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://discord.com/privacy?locale=fr",
+      "select": ".document-25D7S4",
+      "remove": [
+        "a[href=\"#[object-object]\"]"
+      ],
+      "validUntil": "2022-09-17T00:33:41Z"
+    }
   ]
 }
