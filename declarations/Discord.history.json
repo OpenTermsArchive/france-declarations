@@ -1,0 +1,12 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://discord.com/terms?locale=fr",
+      "select": ".document-25D7S4",
+      "remove": [
+        "a[href=\"#[object-object]\"]"
+      ],
+      "validUntil": "2022-09-17T00:33:40Z"
+    }
+  ]
+}
