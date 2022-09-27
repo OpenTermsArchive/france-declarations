@@ -1,5 +1,5 @@
 {
-  "name": "Marcel ",
+  "name": "Marcel",
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.marcel.cab/donnees-personnelles-clients/",
@@ -10,7 +10,7 @@
     "Terms of Service": {
       "fetch": "https://www.marcel.cab/cgu/",
       "select": [
-        "#marcel-home"
+        ".page-container"
       ]
     }
   }
