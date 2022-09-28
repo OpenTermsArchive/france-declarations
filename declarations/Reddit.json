@@ -13,10 +13,7 @@
     "Privacy Policy": {
       "fetch": "https://www.redditinc.com/fr/policies/privacy-policy",
       "select": [
-        "#content"
-      ],
-      "remove": [
-        ".filter-holder"
+        "#main-content"
       ]
     }
   }
