@@ -4,9 +4,9 @@
     "General Conditions of Sale": {
       "fetch": "https://fr.shein.com/Terms-and-Conditions-a-399.html",
       "select": [
-        ".c-new-article:nth-child(2)"
-      ],
-      "executeClientScripts": true
+        ".c-new-article + .paragraph",
+        ".paragraph + .c-new-article"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://fr.shein.com/Privacy-Security-Policy-a-282.html",
