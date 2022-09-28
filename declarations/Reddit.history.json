@@ -1,0 +1,14 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.redditinc.com/fr/policies/privacy-policy",
+      "select": [
+        "#content"
+      ],
+      "remove": [
+        ".filter-holder"
+      ],
+      "validUntil": "2022-05-20T00:36:11Z"
+    }
+  ]
+}
