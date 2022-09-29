@@ -6,7 +6,8 @@
       "select": [
         ".c-new-article + .paragraph",
         ".paragraph + .c-new-article"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://fr.shein.com/Privacy-Security-Policy-a-282.html",
