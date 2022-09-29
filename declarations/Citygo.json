@@ -1,0 +1,15 @@
+{
+  "name": "Citygo",
+  "documents": {
+    "Imprint": {
+      "fetch": "https://www.citygo.io/mentions-legales-cgu/",
+      "executeClientScripts": true,
+      "select": ".entry-content"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.citygo.io/politique-de-confidentialite-2",
+      "executeClientScript": true,
+      "select": ".vc_row"
+    }
+  }
+}
