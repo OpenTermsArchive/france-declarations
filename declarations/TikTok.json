@@ -29,9 +29,8 @@
     "Privacy Policy": {
       "fetch": "https://www.tiktok.com/legal/privacy-policy-eea?lang=fr",
       "select": [
-        "[data-testid=\"policy-card\"]"
-      ],
-      "executeClientScripts": true
+        ".shadow-3xl"
+      ]
     }
   }
 }
