@@ -3,7 +3,7 @@
     {
       "fetch": "https://fr.aegeanair.com/privacy-notice/",
       "select": [
-        "#mainContent"
+        ".container"
       ],
       "remove": [
         ".breadcrumb"
