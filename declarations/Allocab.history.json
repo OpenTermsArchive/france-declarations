@@ -1,14 +1,14 @@
 {
-  "name": "Allocab",
-  "documents": {
-    "Terms of Service": {
+  "Terms of Service": [
+    {
       "fetch": "https://www.allocab.com/informations/conditions-generales-de-service/",
       "select": [
         "[class*=\"navbar\"] + div"
       ],
       "remove": [
         ".hidden"
-      ]
+      ],
+      "validUntil": "2022-06-30T18:31:54Z"
     }
-  }
+  ]
 }
