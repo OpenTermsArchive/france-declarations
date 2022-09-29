@@ -1,0 +1,14 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://fr.aegeanair.com/privacy-notice/",
+      "select": [
+        "#mainContent"
+      ],
+      "remove": [
+        ".breadcrumb"
+      ],
+      "validUntil": "2022-09-06T12:30:06Z"
+    }
+  ]
+}
