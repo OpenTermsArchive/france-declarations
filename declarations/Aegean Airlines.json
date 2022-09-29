@@ -14,7 +14,7 @@
     "Privacy Policy": {
       "fetch": "https://fr.aegeanair.com/privacy-notice/",
       "select": [
-        ".container"
+        "#mainContent"
       ],
       "remove": [
         ".breadcrumb"
