@@ -1,0 +1,12 @@
+{
+  "General Conditions of Sale": [
+    {
+      "fetch": "https://fr.shein.com/Terms-and-Conditions-a-399.html",
+      "select": [
+        ".c-new-article:nth-child(2)"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-08-03T06:37:41Z"
+    }
+  ]
+}

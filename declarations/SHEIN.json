@@ -4,7 +4,8 @@
     "General Conditions of Sale": {
       "fetch": "https://fr.shein.com/Terms-and-Conditions-a-399.html",
       "select": [
-        ".c-new-article:nth-child(2)"
+        ".c-new-article + .paragraph",
+        ".paragraph + .c-new-article"
       ],
       "executeClientScripts": true
     },
