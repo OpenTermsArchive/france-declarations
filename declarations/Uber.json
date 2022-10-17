@@ -14,7 +14,7 @@
         "#legal-info"
       ],
       "remove": [
-        "p > img"
+        "h2 > img"
       ],
       "executeClientScripts": true
     },
