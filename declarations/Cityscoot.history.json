@@ -1,0 +1,11 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.cityscoot.eu/paris/cgu",
+      "select": [
+        "#cgu"
+      ],
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
