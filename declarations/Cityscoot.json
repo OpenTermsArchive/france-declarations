@@ -5,6 +5,9 @@
       "fetch": "https://www.cityscoot.eu/paris/cgu",
       "select": [
         "#cgu"
+      ],
+      "filter": [
+        "unifyEmailProtectedAddresses"
       ]
     },
     "Privacy Policy": {
