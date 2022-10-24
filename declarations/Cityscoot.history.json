@@ -6,6 +6,16 @@
         "#cgu"
       ],
       "validUntil": "2022-09-20T12:29:40Z"
+    },
+    {
+      "fetch": "https://www.cityscoot.eu/paris/cgu",
+      "select": [
+        "#cgu"
+      ],
+      "filter": [
+        "unifyEmailProtectedAddresses"
+      ],
+      "validUntil": "2022-09-20T12:29:40Z"
     }
   ]
 }
