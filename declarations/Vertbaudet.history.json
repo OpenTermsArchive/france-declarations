@@ -28,22 +28,6 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2022-04-28T13:52:33Z"
-    },
-    {
-      "fetch": "https://www.vertbaudet.fr/page/conditions_vente.htm?intnavid=footer_CGV",
-      "select": [
-        ".vb-static--container"
-      ],
-      "remove": [
-        ".vb-page-cgv-content__text > img"
-      ],
-      "filter": [
-        "removeJavascriptLinks",
-        "removeFRZQueryParam",
-        "stopImagesSourcesBlinking"
-      ],
-      "executeClientScripts": true,
-      "validUntil": "to-be-determined"
     }
   ]
 }
