@@ -22,9 +22,10 @@ function removeQueryParam(document, queryParam) {
 
 export function stopImagesSourcesBlinking(document) {
   const regexFRZ = /\?frz-v=(.*)/gm;
+  const volumineuxImageURL = 'https://media.vertbaudet.fr/medias/44/0/26809/1304986041/volumineux.png';
 
   document.querySelectorAll('img[src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]').forEach(el => {
-    el.setAttribute('src', 'https://media.vertbaudet.fr/medias/44/0/26809/1304986041/volumineux.png');
+    el.setAttribute('src', volumineuxImageURL);
   });
 
   document.querySelectorAll('img').forEach(image => {
@@ -33,9 +34,13 @@ export function stopImagesSourcesBlinking(document) {
     image.setAttribute('src', srcWithoutFRZQueryParam);
 
     if (image.getAttribute('src').startsWith('https://www.vertbaudet.fr/fstrz')) {
-      const cleandURL = image.getAttribute('src').replace(/https:\/\/www\.vertbaudet\.fr\/fstrz\/.*?\/media\.vertbaudet\.fr/gmi, 'https://media.vertbaudet.fr');
+      const cleanedURL = image.getAttribute('src').replace(/https:\/\/www\.vertbaudet\.fr\/fstrz\/.*?\/media\.vertbaudet\.fr/gmi, 'https://media.vertbaudet.fr');
 
-      image.setAttribute('src', cleandURL);
+      image.setAttribute('src', cleanedURL);
+    }
+
+    if (image.getAttribute('src').endsWith('/volumineux.png')) {
+      image.setAttribute('src', volumineuxImageURL);
     }
   });
 }
