@@ -2,14 +2,15 @@
   "type": "module",
   "license": "AGPL-3.0",
   "scripts": {
-    "lint": "ota-lint-declarations",
-    "test": "ota-validate-declarations",
+    "lint": "ota lint ",
+    "test": "ota validate",
     "test:schema": "npm run test -- --schema-only",
     "test:modified": "npm run test -- --modified",
-    "track": "ota-track",
-    "track:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run track -- --services"
+    "start": "ota track",
+    "start:schedule": "npm run start -- --schedule",
+    "start:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run start -- --services"
   },
-  "devDependencies": {
-    "open-terms-archive": "git+https://git@github.com/ambanum/OpenTermsArchive#main"
+  "dependencies": {
+    "@opentermsarchive/engine": "^0.20.0"
   }
 }
