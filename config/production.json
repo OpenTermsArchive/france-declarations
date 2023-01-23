@@ -9,14 +9,16 @@
       "storage": {
         "git": {
           "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/france-snapshots/commit/%SNAPSHOT_ID",
-          "repository": "git@github.com:OpenTermsArchive/france-versions.git"
+          "repository": "git@github.com:OpenTermsArchive/france-versions.git",
+          "path": "./data/versions"
         }
       }
     },
     "snapshots": {
       "storage": {
         "git": {
-          "repository": "git@github.com:OpenTermsArchive/france-snapshots.git"
+          "repository": "git@github.com:OpenTermsArchive/france-snapshots.git",
+          "path": "./data/snapshots"
         }
       }
     }
