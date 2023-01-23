@@ -2,8 +2,11 @@ name: Validate declarations
 
 on:
   push:
+    branches-ignore:
+      - 'main'
   pull_request:
     types: [ opened, reopened ]
+  workflow_call:
 
 jobs:
   validate_schema:
@@ -36,4 +39,3 @@ jobs:
           name: snapshots_and_versions
           path: ./data
           if-no-files-found: error
-
