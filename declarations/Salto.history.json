@@ -13,6 +13,16 @@
         ".sc-15jqm5i-1"
       ],
       "validUntil": "2022-08-30T11:50:11Z"
+    },
+    {
+      "fetch": "https://www.salto.fr/conditions-generales-d-abonnement",
+      "select": [
+        {
+          "startAfter": "header[role=\"banner\"]",
+          "endBefore": "footer"
+        }
+      ],
+      "validUntil": "2023-03-27T00:00:00Z"
     }
   ],
   "Terms of Service": [
@@ -29,6 +39,16 @@
         ".sc-15jqm5i-1"
       ],
       "validUntil": "2022-06-20T12:35:14Z"
+    },
+    {
+      "fetch": "https://www.salto.fr/conditions-generales-d-utilisation",
+      "select": [
+        {
+          "startAfter": "header[role=\"banner\"]",
+          "endBefore": "footer"
+        }
+      ],
+      "validUntil": "2023-03-27T00:00:00Z"
     }
   ],
   "Privacy Policy": [
@@ -38,6 +58,20 @@
         ".sc-2ne75f-1"
       ],
       "validUntil": "2022-08-30T11:50:11Z"
+    },
+    {
+      "fetch": "https://www.salto.fr/politique-de-confidentialite/politique-de-traitement-des-donnees-personnelles",
+      "select": [
+        {
+          "startAfter": "header[role=\"banner\"]",
+          "endBefore": "footer"
+        }
+      ],
+      "remove": [
+        "a[href=\"/politique-de-confidentialite/politique-de-gestion-des-cookies\"]",
+        "a[href=\"/politique-de-confidentialite/nos-engagements\"]"
+      ],
+      "validUntil": "2023-03-27T00:00:00Z"
     }
   ]
 }
