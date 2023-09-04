@@ -1,0 +1,23 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.backmarket.fr/data-protection",
+      "select": "This unused `select` is there to pass validation; in this case, there is no way to detect from the URL that the target document is a PDF file",
+      "validUntil": "2023-09-04T13:53:00.000Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.backmarket.fr/terms/use",
+      "select": "This unused `select` is there to pass validation; in this case, there is no way to detect from the URL that the target document is a PDF file",
+      "validUntil": "2023-09-04T13:53:00.000Z"
+    }
+  ],
+  "General Conditions of Sale": [
+    {
+      "fetch": "https://www.backmarket.fr/terms/sale",
+      "select": "This unused `select` is there to pass validation; in this case, there is no way to detect from the URL that the target document is a PDF file",
+      "validUntil": "2023-09-04T13:53:00.000Z"
+    }
+  ]
+}
