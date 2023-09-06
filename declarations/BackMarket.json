@@ -1,17 +1,14 @@
 {
   "name": "BackMarket",
   "documents": {
-    "Privacy Policy": {
-      "fetch": "https://www.backmarket.fr/data-protection",
-      "select": "This unused `select` is there to pass validation; in this case, there is no way to detect from the URL that the target document is a PDF file"
-    },
     "Terms of Service": {
-      "fetch": "https://www.backmarket.fr/terms/use",
-      "select": "This unused `select` is there to pass validation; in this case, there is no way to detect from the URL that the target document is a PDF file"
-    },
-    "General Conditions of Sale": {
-      "fetch": "https://www.backmarket.fr/terms/sale",
-      "select": "This unused `select` is there to pass validation; in this case, there is no way to detect from the URL that the target document is a PDF file"
+      "fetch": "https://www.backmarket.fr/fr-fr/legal/terms-of-use/",
+      "select": [
+        ".flex-grow > .flex"
+      ],
+      "remove": [
+        ".w-full"
+      ]
     }
   }
 }
