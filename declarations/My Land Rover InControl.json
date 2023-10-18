@@ -1,0 +1,10 @@
+{
+  "name": "My Land Rover InControl",
+  "documents": {
+    "Privacy Policy": {
+      "executeClientScripts": true,
+      "fetch": "https://incontrol.landrover.com/jlr-portal-owner-web/about/privacy-policy/FRA",
+      "select": "#legal-doc-content > div.WordSection1"
+    }
+  }
+}
