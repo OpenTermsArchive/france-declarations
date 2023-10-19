@@ -1,0 +1,8 @@
+{
+  "name": "BMW Group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://customer.bmwgroup.com/pm2/pm-document-service/api/v1link/documents/policyName/MY_BMW_APP_DPP/FR/PDF?language=fr&KeyId=31c357a0-7a1d-4590-aa99-33b97244d048"
+    }
+  }
+}
