@@ -1,5 +1,5 @@
 {
-  "name": "My Audi",
+  "name": "myAudi",
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.audi.fr/fr/web/fr/tools/navigation/myaudi/fr/privacy-policy.html",
