@@ -44,5 +44,8 @@
   "dataset": {
     "title": "france",
     "versionsRepositoryURL": "https://github.com/OpenTermsArchive/france-versions"
+  },
+  "api": {
+    "port": 3000
   }
 }
