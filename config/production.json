@@ -32,13 +32,20 @@
       "updateTemplateId": 42
     }
   },
-  "tracker": {
+  "reporter": {
     "githubIssues": {
-      "repository": "OpenTermsArchive/france-declarations"
+      "repositories": {
+        "declarations": "OpenTermsArchive/france-declarations",
+        "versions": "OpenTermsArchive/france-versions",
+        "snapshots": "OpenTermsArchive/france-snapshots"
+      }
     }
   },
   "dataset": {
     "title": "france",
     "versionsRepositoryURL": "https://github.com/OpenTermsArchive/france-versions"
+  },
+  "api": {
+    "port": 3000
   }
 }
