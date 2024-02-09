@@ -1,0 +1,10 @@
+{
+  "name": "Suzuki Connect",
+  "documents": {
+    "Privacy Policy": {
+      "executeClientScripts": true,
+      "fetch": "https://wb01cs.sc.pre-eur.connect.suzuki/portal/gpt?type=policy&country=FR",
+      "select": ".service-policies-block"
+    }
+  }
+}
