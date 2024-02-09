@@ -29,11 +29,10 @@
     "Privacy Policy": {
       "fetch": "https://www.tiktok.com/legal/privacy-policy-eea?lang=fr",
       "select": [
-        ".article-wrapper"
+        "[data-testid=\"policy-card\"]"
       ],
       "remove": [
-        ".language-selection",
-        ".dropdown-title > img"
+        "img[src*=\"/_assets/icon_arrow_down\"]"
       ]
     }
   }
