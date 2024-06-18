@@ -54,7 +54,8 @@
       "contributions": [
         "infra",
         "data",
-        "doc"
+        "doc",
+        "mentoring"
       ]
     },
     {
@@ -124,5 +125,6 @@
   ],
   "repoType": "github",
   "commitConvention": "none",
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "commitType": "docs"
 }
