@@ -1,0 +1,11 @@
+{
+  "name": "Legalstart",
+  "documents": {
+    "undefined": {
+      "fetch": "https://www.legalstart.fr/corp/cgu/",
+      "select": [
+        "main"
+      ]
+    }
+  }
+}
