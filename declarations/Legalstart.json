@@ -6,6 +6,12 @@
       "select": [
         "main"
       ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.legalstart.fr/corp/vie-privee/",
+      "select": [
+        "main"
+      ]
     }
   }
 }
