@@ -1,0 +1,11 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://blog.blablacar.fr/about-us/privacy-policy",
+      "select": [
+        "div[role=\"document\"]"
+      ],
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
