@@ -12,6 +12,12 @@
       "select": [
         ".typeset"
       ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.twitch.tv/p/fr-fr/legal/cookie-notice/",
+      "select": [
+        ".typeset"
+      ]
     }
   }
 }
