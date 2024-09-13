@@ -1,0 +1,14 @@
+{
+  "name": "Trainline",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.thetrainline.com/fr/terms/cookies",
+      "select": [
+        "div[id*=\"LL_multiColumnContainer\"]"
+      ],
+      "remove": [
+        "#LL_multiColumnContainerV2-0 #LL_html-3"
+      ]
+    }
+  }
+}
