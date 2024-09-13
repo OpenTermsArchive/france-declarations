@@ -1,0 +1,11 @@
+{
+  "name": "BoursoBank",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.boursorama.com/aide/politique-cookies",
+      "select": [
+        "#main-content .l-basic-page__main"
+      ]
+    }
+  }
+}
