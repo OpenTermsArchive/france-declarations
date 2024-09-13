@@ -1,0 +1,8 @@
+{
+  "name": "BoursoBank",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://s.brsimg.com/content/pdf/conditions-generales/conditions-generales.pdf"
+    }
+  }
+}
