@@ -1,0 +1,11 @@
+{
+  "name": "Welcome to the Jungle",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.welcometothejungle.com/fr/pages/terms",
+      "select": [
+        "main"
+      ]
+    }
+  }
+}
