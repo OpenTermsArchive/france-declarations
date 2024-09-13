@@ -1,0 +1,11 @@
+{
+  "name": "Welcome to the Jungle",
+  "documents": {
+    "Imprint": {
+      "fetch": "https://www.welcometothejungle.com/fr/pages/legal",
+      "select": [
+        "main"
+      ]
+    }
+  }
+}
