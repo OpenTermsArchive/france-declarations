@@ -12,6 +12,16 @@
       "select": [
         ".typeset"
       ]
+    },
+    "Community Guidelines": {
+      "fetch": "https://safety.twitch.tv/s/article/Community-Guidelines?language=fr",
+      "select": [
+        ".tsc-article-body"
+      ],
+      "remove": [
+        ".expand-all-link"
+      ],
+      "executeClientScripts": true
     }
   }
 }
