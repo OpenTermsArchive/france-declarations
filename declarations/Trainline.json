@@ -1,0 +1,15 @@
+{
+  "name": "Trainline",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.thetrainline.com/fr/terms",
+      "select": [
+        "div[id*=\"LL_multiColumnContainer\"]"
+      ],
+      "remove": [
+        "#LL_html-3",
+        "div[id*=\"LL_multiColumnContainer\"] #LL_multiColumnContainerV2-0"
+      ]
+    }
+  }
+}
