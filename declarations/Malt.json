@@ -7,6 +7,13 @@
         ".page-legal__content"
       ],
       "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.malt.fr/about/privacy/policy",
+      "select": [
+        ".about-privacy"
+      ],
+      "executeClientScripts": true
     }
   }
 }
