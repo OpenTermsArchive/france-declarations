@@ -1,0 +1,12 @@
+{
+  "name": "Malt",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.malt.fr/legal",
+      "select": [
+        ".page-legal__content"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
