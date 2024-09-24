@@ -14,6 +14,20 @@
         ".wrapper-content"
       ],
       "executeClientScripts": true
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.morgandetoi.fr/politique-cookies",
+      "select": [
+        ".wrapper-content"
+      ],
+      "executeClientScripts": true
+    },
+    "Imprint": {
+      "fetch": "https://www.morgandetoi.fr/mentions-legales",
+      "select": [
+        ".wrapper-content"
+      ],
+      "executeClientScripts": true
     }
   }
 }
