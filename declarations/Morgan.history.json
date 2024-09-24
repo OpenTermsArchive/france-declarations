@@ -1,0 +1,16 @@
+{
+  "General Conditions of Sale": {
+    "fetch": "https://www.morgandetoi.fr/conditions-generales-vente",
+    "select": [
+      ".wrapper-content"
+    ],
+    "validUntil": "2023-12-12T18:38:24Z"
+  },
+  "Privacy Policy": {
+    "fetch": "https://www.morgandetoi.fr/charte-confidentialite",
+    "select": [
+      ".wrapper-content"
+    ],
+    "validUntil": "2023-12-12T18:38:24Z"
+  }
+}
