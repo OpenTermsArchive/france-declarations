@@ -5,13 +5,15 @@
       "fetch": "https://www.morgandetoi.fr/conditions-generales-vente",
       "select": [
         ".wrapper-content"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.morgandetoi.fr/charte-confidentialite",
       "select": [
         ".wrapper-content"
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
