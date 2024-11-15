@@ -15,7 +15,7 @@
     },
     "General Conditions of Sale": {
       "fetch": "https://www.twitch.tv/p/fr-fr/legal/terms-of-sale/",
-       "select": [
+      "select": [
         ".typeset"
       ]
     },
