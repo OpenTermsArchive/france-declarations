@@ -13,6 +13,12 @@
         ".typeset"
       ]
     },
+    "Trackers Policy": {
+      "fetch": "https://www.twitch.tv/p/fr-fr/legal/cookie-notice/",
+      "select": [
+        ".typeset"
+      ]
+    },
     "Community Guidelines": {
       "fetch": "https://safety.twitch.tv/s/article/Community-Guidelines?language=fr",
       "select": [
