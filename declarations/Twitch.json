@@ -1,39 +1,39 @@
 {
   "name": "Twitch",
-        "documents": {
-          "Terms of Service": {
-            "fetch": "https://www.twitch.tv/p/fr-fr/legal/terms-of-service/",
-            "select": [
-              ".typeset"
-            ]
-          },
-          "Privacy Policy": {
-            "fetch": "https://www.twitch.tv/p/fr-fr/legal/privacy-notice/",
-            "select": [
-              ".typeset"
-            ]
-          },
-          "General Conditions of Sale": {
-            "fetch": "https://www.twitch.tv/p/fr-fr/legal/terms-of-sale/",
-            "select": [
-              ".typeset"
-            ]
-          },
-          "Trackers Policy": {
-            "fetch": "https://www.twitch.tv/p/fr-fr/legal/cookie-notice/",
-            "select": [
-              ".typeset"
-            ]
-          },
-          "Community Guidelines": {
-            "fetch": "https://safety.twitch.tv/s/article/Community-Guidelines?language=fr",
-            "select": [
-              ".tsc-article-body"
-            ],
-            "remove": [
-              ".expand-all-link"
-            ],
-            "executeClientScripts": true
-           }
-      }
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.twitch.tv/p/fr-fr/legal/terms-of-service/",
+      "select": [
+        ".typeset"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.twitch.tv/p/fr-fr/legal/privacy-notice/",
+      "select": [
+        ".typeset"
+      ]
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.twitch.tv/p/fr-fr/legal/terms-of-sale/",
+      "select": [
+        ".typeset"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.twitch.tv/p/fr-fr/legal/cookie-notice/",
+      "select": [
+        ".typeset"
+      ]
+    },
+    "Community Guidelines": {
+      "fetch": "https://safety.twitch.tv/s/article/Community-Guidelines?language=fr",
+      "select": [
+        ".tsc-article-body"
+      ],
+      "remove": [
+        ".expand-all-link"
+      ],
+      "executeClientScripts": true
+    }
+  }
 }
