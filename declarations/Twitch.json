@@ -15,6 +15,12 @@
     },
     "General Conditions of Sale": {
       "fetch": "https://www.twitch.tv/p/fr-fr/legal/terms-of-sale/",
+       "select": [
+        ".typeset"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.twitch.tv/p/fr-fr/legal/cookie-notice/",
       "select": [
         ".typeset"
       ]
