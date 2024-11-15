@@ -1,0 +1,14 @@
+{
+  "name": "Welcome to the Jungle",
+  "documents": {
+    "Business Privacy Policy": {
+      "fetch": "https://www.welcometothejungle.com/fr/pages/privacy-policy-recruiters",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "main nav"
+      ]
+    }
+  }
+}
