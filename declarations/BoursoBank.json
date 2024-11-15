@@ -4,7 +4,7 @@
     "Trackers Policy": {
       "fetch": "https://www.boursorama.com/aide/politique-cookies",
       "select": [
-        "#main-content .l-basic-page__main"
+        ".l-basic-page__main"
       ]
     }
   }
