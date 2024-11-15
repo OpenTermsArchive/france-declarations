@@ -6,6 +6,12 @@
       "select": [
         ".l-basic-page__main"
       ]
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://s.brsimg.com/content/pdf/conditions-generales/conditions-generales.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://s.brsimg.com/content/pdf/reglementaire/politique-de-protection-des-donnees.pdf"
     }
   }
 }
