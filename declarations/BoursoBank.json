@@ -1,0 +1,8 @@
+{
+  "name": "BoursoBank",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://s.brsimg.com/content/pdf/reglementaire/politique-de-protection-des-donnees.pdf"
+    }
+  }
+}
