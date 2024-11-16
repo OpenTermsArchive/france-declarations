@@ -1,6 +1,12 @@
 {
   "name": "BoursoBank",
   "documents": {
+    "Imprint": {
+      "fetch": "https://www.boursorama.com/aide/mentions-legales-et-cgu",
+      "select": [
+        "#main-content .l-basic-page__main"
+      ]
+    },
     "Trackers Policy": {
       "fetch": "https://www.boursorama.com/aide/politique-cookies",
       "select": [
