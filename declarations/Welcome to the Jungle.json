@@ -1,6 +1,12 @@
 {
   "name": "Welcome to the Jungle",
   "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.welcometothejungle.com/fr/pages/cookies-policy",
+      "select": [
+        "main"
+      ]
+    },
     "Business Privacy Policy": {
       "fetch": "https://www.welcometothejungle.com/fr/pages/privacy-policy-recruiters",
       "select": [
