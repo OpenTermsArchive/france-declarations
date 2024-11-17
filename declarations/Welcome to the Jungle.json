@@ -1,6 +1,15 @@
 {
   "name": "Welcome to the Jungle",
   "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.welcometothejungle.com/fr/pages/privacy-policy-candidates",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "main nav"
+      ]
+    },
     "Trackers Policy": {
       "fetch": "https://www.welcometothejungle.com/fr/pages/cookies-policy",
       "select": [
