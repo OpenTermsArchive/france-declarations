@@ -6,9 +6,20 @@
       "select": [
         "div[id*=\"LL_multiColumnContainer\"]"
       ],
-      "remove": [
+       "remove": [
         "#LL_html-3",
         "div[id*=\"LL_multiColumnContainer\"] #LL_multiColumnContainerV2-0"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thetrainline.com/fr/terms/privacy",
+      "select": [
+        "div[id*=\"LL_multiColumnContainer\"]"
+      ],
+      "remove": [
+        "#LL_multiColumnContainerV2-0 #LL_html-3",
+        "div[id*=\"LL_multiColumnContainer\"] #LL_multiColumnContainerV2-0",
+        "#LL_multiColumnContainerV2-8"
       ]
     }
   }
