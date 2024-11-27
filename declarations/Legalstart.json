@@ -1,10 +1,14 @@
 {
   "name": "Legalstart",
   "documents": {
-    "undefined": {
+    "Terms of Service": {
       "fetch": "https://www.legalstart.fr/corp/cgu/",
       "select": [
-        "main"
+        "body"
+      ],
+      "remove": [
+        ".header__body",
+        ".footer__row"
       ]
     }
   }
