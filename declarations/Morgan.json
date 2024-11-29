@@ -5,13 +5,29 @@
       "fetch": "https://www.morgandetoi.fr/conditions-generales-vente",
       "select": [
         ".wrapper-content"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.morgandetoi.fr/charte-confidentialite",
       "select": [
         ".wrapper-content"
-      ]
+      ],
+      "executeClientScripts": true
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.morgandetoi.fr/politique-cookies",
+      "select": [
+        ".wrapper-content"
+      ],
+      "executeClientScripts": true
+    },
+    "Imprint": {
+      "fetch": "https://www.morgandetoi.fr/mentions-legales",
+      "select": [
+        ".wrapper-content"
+      ],
+      "executeClientScripts": true
     }
   }
 }
