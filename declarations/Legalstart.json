@@ -7,6 +7,16 @@
         "main"
       ]
     },
+    "Terms of Service": {
+      "fetch": "https://www.legalstart.fr/corp/cgu/",
+      "select": [
+        "body"
+      ],
+      "remove": [
+        ".header__body",
+        ".footer__row"
+      ]
+    },
     "Privacy Policy": {
       "fetch": "https://www.legalstart.fr/corp/vie-privee/",
       "select": [
