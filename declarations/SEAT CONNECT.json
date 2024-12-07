@@ -1,0 +1,9 @@
+{
+  "name": "SEAT CONNECT",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://consent.vwgroup.io/consent/v1/texts/SEATConnect/fr/fr/dataPrivacy/latest/html",
+      "select": "body"
+    }
+  }
+}

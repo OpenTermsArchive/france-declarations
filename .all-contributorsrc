@@ -1,0 +1,130 @@
+{
+  "projectName": "france-declarations",
+  "projectOwner": "OpenTermsArchive",
+  "files": [
+    ".all-contributors.md"
+  ],
+  "contributors": [
+    {
+      "login": "clementbiron",
+      "name": "Clément Biron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/364319?v=4",
+      "profile": "https://clementbiron.com/",
+      "contributions": [
+        "data",
+        "code"
+      ]
+    },
+    {
+      "login": "martinratinaud",
+      "name": "Martin Ratinaud",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4191809?v=4",
+      "profile": "http://bit.ly/work-with-martin",
+      "contributions": [
+        "data",
+        "code",
+        "infra"
+      ]
+    },
+    {
+      "login": "Ndpnt",
+      "name": "Nicolas Dupont",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1098708?v=4",
+      "profile": "https://github.com/Ndpnt",
+      "contributions": [
+        "code",
+        "infra",
+        "data"
+      ]
+    },
+    {
+      "login": "Manu1400",
+      "name": "Emmanuel Haguet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3307236?v=4",
+      "profile": "https://github.com/Manu1400",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "MattiSG",
+      "name": "Matti Schneider",
+      "avatar_url": "https://avatars.githubusercontent.com/u/222463?v=4",
+      "profile": "https://mattischneider.fr/",
+      "contributions": [
+        "infra",
+        "data",
+        "doc",
+        "mentoring"
+      ]
+    },
+    {
+      "login": "Amustache",
+      "name": "Stache",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5108539?v=4",
+      "profile": "https://stache.cat/",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "mvidonne",
+      "name": "Marie-Pierre Vidonne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46820105?v=4",
+      "profile": "https://github.com/mvidonne",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "GDefrevillePEReN",
+      "name": "Gaspard Defréville",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148353049?v=4",
+      "profile": "https://www.peren.gouv.fr/",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "dbertho",
+      "name": "David Bertho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41988314?v=4",
+      "profile": "https://github.com/dbertho",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "name": "Laurie Liddell",
+      "profile": "https://www.linkedin.com/in/laurie-liddell-bb4278b3/",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "name": "Raphael Bartlomé",
+      "profile": "https://www.linkedin.com/in/raphael-bartlome-840006164/",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "name": "Chloé Legendre",
+      "profile": "https://www.linkedin.com/in/chlo%C3%A9-legendre-2b014a1a6/",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "name": "Constance Dauvergne",
+      "profile": "https://www.linkedin.com/in/constance-dauvergne-1811a5192/",
+      "contributions": [
+        "data"
+      ]
+    }
+  ],
+  "repoType": "github",
+  "commitConvention": "none",
+  "contributorsPerLine": 7,
+  "commitType": "docs"
+}
