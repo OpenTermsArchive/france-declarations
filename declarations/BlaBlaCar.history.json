@@ -1,0 +1,11 @@
+{
+  "Trackers Policy": [
+    {
+      "fetch": "https://blog.blablacar.fr/about-us/cookies-policy",
+      "select": [
+        "div[role=\"document\"]"
+      ],
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
