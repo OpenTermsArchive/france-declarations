@@ -1,4 +1,13 @@
 {
+  "Privacy Policy": [
+    {
+      "fetch": "https://blog.blablacar.fr/about-us/privacy-policy",
+      "select": [
+        "div[role=\"document\"]"
+      ],
+      "validUntil": "2024-11-16T12:32:28Z"
+    }
+  ],
   "General Conditions of Sale": [
     {
       "fetch": "https://blog.blablacar.fr/about-us/terms-and-conditions",
