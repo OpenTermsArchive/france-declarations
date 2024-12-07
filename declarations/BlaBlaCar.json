@@ -4,7 +4,10 @@
     "General Conditions of Sale": {
       "fetch": "https://blog.blablacar.fr/about-us/terms-and-conditions",
       "select": [
-        "div[role=\"document\"]"
+        ".article-full"
+      ],
+      "remove": [
+        ".enlazatom-title-box"
       ]
     },
     "Trackers Policy": {
