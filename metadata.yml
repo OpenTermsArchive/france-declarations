@@ -6,7 +6,7 @@ description: |
   
   The terms in this collection were initially declared by [UFC-Que Choisir](https://www.quechoisir.org/) with support from the [Office of the French Ambassador for Digital Affairs](https://www.diplomatie.gouv.fr/en/french-foreign-policy/digital-diplomacy/). They are now maintained by volunteer contributors.
   
-  The France collection has been used to detect irregularities in French online marketplaces also demonstrated its value as a feasibility example for the [TLDR Act](https://www.congress.gov/bill/118th-congress/house-bill/4568/).
+  The France collection has been used to detect irregularities in French online marketplaces, and demonstrated its value as a feasibility example for the [TLDR Act](https://www.congress.gov/bill/118th-congress/house-bill/4568/).
 dataset: https://github.com/OpenTermsArchive/france-versions/releases
 declarations: https://github.com/OpenTermsArchive/france-declarations
 versions: https://github.com/OpenTermsArchive/france-versions
@@ -55,7 +55,7 @@ i18n:
       
       Les documents de cette collection ont été initialement déclarés par l'[UFC-Que Choisir](https://www.quechoisir.org/) avec le soutien du [Bureau de l'Ambassadeur français pour le numérique](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/diplomatie-numerique/). Ils sont dorénavant maintenus par des contributeurs bénévoles.
       
-      La collection a été utilisée pour détecter des irrégularités sur les marchés en ligne et également démontré sa valeur comme exemple de faisabilité pour le projet de [loi TLDR](https://www.congress.gov/bill/118th-congress/house-bill/4568/).
+      La collection a été utilisée pour détecter des irrégularités sur des services de vente en ligne et a démontré sa valeur comme preuve de faisabilité pour le [projet de loi TLDR](https://www.congress.gov/bill/118th-congress/house-bill/4568/).
     governance:
       hosts:
         - name: Ministère de l'Europe et des Affaires étrangères
