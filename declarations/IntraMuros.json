@@ -1,0 +1,32 @@
+{
+  "name": "IntraMuros",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.intramuros.org/confidentialite",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[role=\"navigation\"]"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.intramuros.org/cgu",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[role=\"navigation\"]"
+      ]
+    },
+    "Imprint": {
+      "fetch": "https://www.intramuros.org/mentions-legales",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[role=\"navigation\"]"
+      ]
+    }
+  }
+}
