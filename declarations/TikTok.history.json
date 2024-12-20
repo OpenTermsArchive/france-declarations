@@ -38,5 +38,14 @@
       "executeClientScripts": true,
       "validUntil": "2023-12-12T18:40:41Z"
     }
+  ],
+  "Copyright Claims Policy": [
+    {
+      "fetch": "https://www.tiktok.com/legal/copyright-policy?lang=fr",
+      "select": [
+        ".article-wrapper"
+      ],
+      "validUntil": "to-be-determined"
+    }
   ]
 }
