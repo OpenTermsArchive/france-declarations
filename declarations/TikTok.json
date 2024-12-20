@@ -23,12 +23,9 @@
     "Privacy Policy": {
       "fetch": "https://www.tiktok.com/legal/privacy-policy-eea?lang=fr",
       "select": [
-        ".article-wrapper"
+        "#policy-card"
       ],
-      "remove": [
-        ".language-selection",
-        ".dropdown-title > img"
-      ]
+      "executeClientScripts": true
     }
   }
 }

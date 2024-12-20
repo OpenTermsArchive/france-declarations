@@ -47,5 +47,14 @@
       ],
       "validUntil": "2023-12-12T18:40:42Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.tiktok.com/legal/privacy-policy-eea?lang=fr",
+      "select": [
+        "[data-testid=\"policy-card\"]"
+      ],
+      "validUntil": "2023-12-12T18:40:43Z"
+    }
   ]
 }
