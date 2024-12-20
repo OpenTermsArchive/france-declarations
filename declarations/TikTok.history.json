@@ -29,6 +29,14 @@
         "#settings-button"
       ],
       "validUntil": "2024-02-12T18:42:31Z"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=fr",
+      "select": [
+        "#policy-card"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-12-12T18:40:41Z"
     }
   ]
 }
