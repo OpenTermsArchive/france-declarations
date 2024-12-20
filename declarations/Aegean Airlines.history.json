@@ -3,12 +3,25 @@
     {
       "fetch": "https://fr.aegeanair.com/privacy-notice/",
       "select": [
-        "#mainContent"
+        ".container"
       ],
       "remove": [
         ".breadcrumb"
       ],
       "validUntil": "2022-09-06T12:30:06Z"
+    }
+  ],
+  "General Conditions of Sale": [
+    {
+      "fetch": "https://fr.aegeanair.com/conditions-et-avis/conditions-generales-de-transport/",
+      "select": [
+        ".container"
+      ],
+      "remove": [
+        ".breadcrumb",
+        "button[onclick=\"window.print();\""
+      ],
+      "validUntil": "2022-09-12T12:30:05Z"
     }
   ]
 }

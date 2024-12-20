@@ -2,13 +2,19 @@
   "type": "module",
   "license": "AGPL-3.0",
   "scripts": {
-    "lint": "ota-lint-declarations",
-    "test": "ota-validate-declarations",
-    "test:schema": "npm run test -- --schema-only",
-    "test:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm test",
-    "track": "ota-track",
-    "track:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run track"  },
-  "devDependencies": {
-    "open-terms-archive": "git+https://git@github.com/ambanum/OpenTermsArchive#main"
+    "lint": "ota lint",
+    "lint:fix": "ota lint -- --fix",
+    "test": "ota lint && ota validate",
+    "test:schema": "ota validate --schema-only",
+    "test:modified": "ota validate --modified",
+    "start": "ota track",
+    "start:collection-api": "ota serve",
+    "start:schedule": "npm run start -- --schedule",
+    "start:modified": "git diff -z --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | tr '\\0' '\\n' | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run start -- --services",
+    "dataset": "ota dataset",
+    "dataset:schedule": "npm run dataset -- --publish --remove-local-copy --schedule"
+  },
+  "dependencies": {
+    "@opentermsarchive/engine": "~4.0.1"
   }
 }

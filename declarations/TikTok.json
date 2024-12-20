@@ -4,26 +4,20 @@
     "Terms of Service": {
       "fetch": "https://www.tiktok.com/legal/terms-of-service-eea?lang=fr",
       "select": [
-        ".article-wrapper"
-      ],
-      "remove": [
-        ".language-selection",
-        ".dropdown-title > img"
+        "#policy-card"
       ]
     },
     "Trackers Policy": {
       "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=fr",
       "select": [
-        ".article-wrapper"
+        "#policy-card"
       ],
-      "remove": [
-        "#settings-button"
-      ]
+      "executeClientScripts": true
     },
     "Copyright Claims Policy": {
       "fetch": "https://www.tiktok.com/legal/copyright-policy?lang=fr",
       "select": [
-        ".article-wrapper"
+        "#policy-card"
       ]
     },
     "Privacy Policy": {

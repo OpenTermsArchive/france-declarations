@@ -1,0 +1,48 @@
+id: france
+name: France
+tagline: Largest digital services used in France
+description: |
+  The **France** collection tracks documents from the leading online services for French consumers.
+  
+  The terms in this collection were initially declared by [UFC-Que Choisir](https://www.quechoisir.org/) with support from the [Office of the French Ambassador for Digital Affairs](https://www.diplomatie.gouv.fr/en/french-foreign-policy/digital-diplomacy/). They are now maintained by volunteer contributors.
+  
+  The France collection has been used to detect irregularities in French online marketplaces, and demonstrated its value as a feasibility example for the [TLDR Act](https://www.congress.gov/bill/118th-congress/house-bill/4568/).
+dataset: https://github.com/OpenTermsArchive/france-versions/releases
+declarations: https://github.com/OpenTermsArchive/france-declarations
+versions: https://github.com/OpenTermsArchive/france-versions
+snapshots: https://github.com/OpenTermsArchive/france-snapshots
+donations: https://opencollective.com/opentermsarchive
+logo: https://opentermsarchive.org/images/collections/france.png
+languages: [fr]
+jurisdictions: [FR]
+trackingPeriods:
+  - startDate: 2022-01-24
+    schedule: "30 */12 * * *"
+    serverLocation: London, GB
+governance:
+  Ministry for Europe and Foreign Affairs:
+    url: https://www.diplomatie.gouv.fr/en/
+    logo: https://opentermsarchive.org/images/contributors/meae.png
+    roles: [host, sponsor]
+  Open Terms Archive:
+    url: https://opentermsarchive.org
+    logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
+    roles: [administrator, curator, maintainer]
+  UFC-Que Choisir:
+    url: https://www.quechoisir.org
+    logo: https://opentermsarchive.org/images/contributors/ufc-que-choisir.png
+    roles: [curator, sponsor]
+
+i18n:
+  fr: 
+    tagline: Principaux services numériques utilisés en France
+    description: | 
+      La collection **France** suit les documents des plus grands services en ligne à destination des consommateurs français.
+      
+      Les documents de cette collection ont été initialement déclarés par l'[UFC-Que Choisir](https://www.quechoisir.org/) avec le soutien du [Bureau de l'Ambassadeur français pour le numérique](https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/diplomatie-numerique/). Ils sont dorénavant maintenus par des contributeurs bénévoles.
+      
+      La collection a été utilisée pour détecter des irrégularités sur des services de vente en ligne et a démontré sa valeur comme preuve de faisabilité pour le [projet de loi TLDR](https://www.congress.gov/bill/118th-congress/house-bill/4568/).
+    governance:
+      Ministry for Europe and Foreign Affairs:
+        name: Ministère de l'Europe et des Affaires étrangères
+        url: https://www.diplomatie.gouv.fr

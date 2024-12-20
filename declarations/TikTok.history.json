@@ -6,6 +6,46 @@
         ".article-wrapper"
       ],
       "validUntil": "2022-06-07T12:44:00.000Z"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/terms-of-service-eea?lang=fr",
+      "select": [
+        ".article-wrapper"
+      ],
+      "remove": [
+        ".language-selection",
+        ".dropdown-title > img"
+      ],
+      "validUntil": "2023-12-12T18:40:41Z"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=fr",
+      "select": [
+        ".article-wrapper"
+      ],
+      "remove": [
+        "#settings-button"
+      ],
+      "validUntil": "2024-02-12T18:42:31Z"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=fr",
+      "select": [
+        "#policy-card"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-12-12T18:40:41Z"
+    }
+  ],
+  "Copyright Claims Policy": [
+    {
+      "fetch": "https://www.tiktok.com/legal/copyright-policy?lang=fr",
+      "select": [
+        ".article-wrapper"
+      ],
+      "validUntil": "2023-12-12T18:40:42Z"
     }
   ],
   "Privacy Policy": [
