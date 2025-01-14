@@ -11,7 +11,7 @@ dataset: https://github.com/OpenTermsArchive/france-versions/releases
 declarations: https://github.com/OpenTermsArchive/france-declarations
 versions: https://github.com/OpenTermsArchive/france-versions
 snapshots: https://github.com/OpenTermsArchive/france-snapshots
-donations: https://opencollective.com/opentermsarchive
+donations: https://opencollective.com/opentermsarchive/projects/france-collection
 logo: https://opentermsarchive.org/images/collections/france.png
 languages: [fr]
 jurisdictions: [FR]
