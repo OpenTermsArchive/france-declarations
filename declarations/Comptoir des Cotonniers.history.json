@@ -1,0 +1,11 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.comptoirdescotonniers.com/politique_protection_donnees_personnelles_cookies-Politique_protection_donn%C3%A9es_personnelles_Cookies.html",
+      "select": [
+        "#primary"
+      ],
+      "validUntil": "2022-08-17T18:33:05Z"
+    }
+  ]
+}
