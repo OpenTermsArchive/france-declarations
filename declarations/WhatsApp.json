@@ -1,6 +1,6 @@
 {
   "name": "WhatsApp",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.whatsapp.com/legal/terms-of-service-eea?lang=fr",
       "select": [

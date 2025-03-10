@@ -1,6 +1,6 @@
 {
   "name": "SEAT CONNECT",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://consent.vwgroup.io/consent/v1/texts/SEATConnect/fr/fr/dataPrivacy/latest/html",
       "select": "body"

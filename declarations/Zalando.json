@@ -1,6 +1,6 @@
 {
   "name": "Zalando",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.zalando.fr/zalando-protection-donnees/",
       "select": [

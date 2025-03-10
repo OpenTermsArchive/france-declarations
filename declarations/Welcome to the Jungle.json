@@ -1,6 +1,6 @@
 {
   "name": "Welcome to the Jungle",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.welcometothejungle.com/fr/pages/terms",
       "select": [

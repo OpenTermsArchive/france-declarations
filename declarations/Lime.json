@@ -1,6 +1,6 @@
 {
   "name": "Lime",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.li.me/fr-fr/user-agreement",
       "select": [

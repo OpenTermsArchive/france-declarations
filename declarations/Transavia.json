@@ -1,6 +1,6 @@
 {
   "name": "Transavia",
-  "documents": {
+  "terms": {
     "Conditions of Carriage": {
       "fetch": "https://www.transavia.com/fr-FR/juridique/conditions-de-transport/",
       "select": "#top",

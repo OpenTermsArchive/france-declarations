@@ -1,6 +1,6 @@
 {
   "name": "G7",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.g7.fr/conditions-generales",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Spartoo",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.spartoo.com/cnil.php",
       "select": [

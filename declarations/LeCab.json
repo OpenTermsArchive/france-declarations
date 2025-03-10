@@ -1,6 +1,6 @@
 {
   "name": "LeCab",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://lecab.fr/conditions-generales-de-vente/",
       "select": [

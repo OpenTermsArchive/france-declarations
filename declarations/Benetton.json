@@ -1,6 +1,6 @@
 {
   "name": "Benetton",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://fr.benetton.com/privacy/privacy.html",
       "select": [

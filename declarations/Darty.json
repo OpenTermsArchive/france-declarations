@@ -1,6 +1,6 @@
 {
   "name": "Darty",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.darty.com/res3/services/contrat-de-confiance/pdf/nouveau-contrat-de-confiance-darty.pdf"
     },

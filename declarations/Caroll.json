@@ -1,6 +1,6 @@
 {
   "name": "Caroll",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.caroll.com/fr_fr/general/conditions-generales-de-vente.html",
       "select": [

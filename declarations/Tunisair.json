@@ -1,6 +1,6 @@
 {
   "name": "Tunisair",
-  "documents": {
+  "terms": {
     "Conditions of Carriage": {
       "fetch": "http://www.tunisair.com/site/publish/module/cgt/cgt.asp",
       "select": "#contenuinterne",

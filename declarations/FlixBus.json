@@ -1,6 +1,6 @@
 {
   "name": "FlixBus",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.flixbus.fr/conditions-generales",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Rainbooh",
-  "documents": {
+  "terms": {
     "Imprint": {
       "fetch": "https://www.rainbooh.com/mentions-legales",
       "select": ".prose"

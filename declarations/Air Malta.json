@@ -1,6 +1,6 @@
 {
   "name": "Air Malta",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://airmalta.com/fr/questions-juridiques-et-reglements/politique-de-confidentialite",
       "select": [
