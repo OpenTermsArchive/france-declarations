@@ -1,6 +1,6 @@
 {
   "name": "Canal+",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://static.canalplus.com/legal/donnees-personnelles.html",
       "select": [

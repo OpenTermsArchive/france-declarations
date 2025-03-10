@@ -1,6 +1,6 @@
 {
   "name": "Air Caraïbes",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.aircaraibes.com/pratique/mentions-legales/politique-de-confidentialite",
       "select": [

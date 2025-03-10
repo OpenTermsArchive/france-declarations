@@ -1,6 +1,6 @@
 {
   "name": "Esprit",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.esprit.fr/cgv/terms-and-conditions.html",
       "select": [

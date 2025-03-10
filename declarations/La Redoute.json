@@ -1,6 +1,6 @@
 {
   "name": "La Redoute",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.laredoute.fr/help_conditions.aspx",
       "select": [

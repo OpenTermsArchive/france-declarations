@@ -1,6 +1,6 @@
 {
   "name": "OCS",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.ocs.fr/donnees-personnelles",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "New Balance",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.newbalance.fr/fr/terms.html",
       "select": [

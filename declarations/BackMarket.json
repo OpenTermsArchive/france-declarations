@@ -1,6 +1,6 @@
 {
   "name": "BackMarket",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.backmarket.fr/fr-fr/legal/terms-of-use/",
       "select": [

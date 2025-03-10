@@ -1,6 +1,6 @@
 {
   "name": "Camaieu",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.camaieu.fr/Content/conditions-generales-de-vente",
       "select": [

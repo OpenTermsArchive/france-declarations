@@ -1,6 +1,6 @@
 {
   "name": "BlaBlaCar",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://blog.blablacar.fr/about-us/terms-and-conditions",
       "select": [

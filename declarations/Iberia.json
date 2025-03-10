@@ -1,6 +1,6 @@
 {
   "name": "Iberia",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.iberia.com/fr/informations-sur-la-confidentialite/",
       "select": [

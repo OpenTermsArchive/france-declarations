@@ -1,6 +1,6 @@
 {
   "name": "Air Corsica",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.aircorsica.com/politique-de-confidentialite.html",
       "select": [

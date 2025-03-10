@@ -1,6 +1,6 @@
 {
   "name": "Brussels Airlines",
-  "documents": {
+  "terms": {
     "Conditions of Carriage": {
       "fetch": "https://www.brusselsairlines.com/fr/fr/legal-notices/terms-and-conditions-conditions-of-carriage",
       "select": "[role=\"main\"]",

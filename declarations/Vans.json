@@ -1,6 +1,6 @@
 {
   "name": "Vans",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.vans.fr/aide/privacy-full.html",
       "select": [

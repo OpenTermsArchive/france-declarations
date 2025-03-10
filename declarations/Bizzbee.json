@@ -1,6 +1,6 @@
 {
   "name": "Bizzbee",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.bizzbee.com/cgv.html",
       "select": [

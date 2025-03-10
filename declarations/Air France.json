@@ -1,6 +1,6 @@
 {
   "name": "Air France",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://wwws.airfrance.fr/information/legal/edito-psc",
       "select": [

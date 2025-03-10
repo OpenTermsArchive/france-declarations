@@ -1,6 +1,6 @@
 {
   "name": "Dott",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://ridedott.com/fr/conditions-generales/france",
       "select": "#legal"

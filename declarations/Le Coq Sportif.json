@@ -1,6 +1,6 @@
 {
   "name": "Le Coq Sportif",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.lecoqsportif.com/fr_FR/cgv",
       "select": [

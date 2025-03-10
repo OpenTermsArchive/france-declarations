@@ -1,6 +1,6 @@
 {
   "name": "Netflix",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://help.netflix.com/fr/legal/privacy",
       "select": [

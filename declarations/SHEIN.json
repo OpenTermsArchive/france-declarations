@@ -1,6 +1,6 @@
 {
   "name": "SHEIN",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://fr.shein.com/Terms-and-Conditions-a-399.html",
       "select": [

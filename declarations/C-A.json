@@ -1,6 +1,6 @@
 {
   "name": "C&A",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.c-and-a.com/fr/fr/shop/service/cgv",
       "select": [

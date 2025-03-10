@@ -1,6 +1,6 @@
 {
   "name": "Kappa",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.kappastore.fr/pages/cgv",
       "select": [

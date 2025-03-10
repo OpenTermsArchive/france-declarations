@@ -1,6 +1,6 @@
 {
   "name": "Jules",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.jules.com/fr-fr/static/cgv.html",
       "select": [

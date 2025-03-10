@@ -1,6 +1,6 @@
 {
   "name": "Zara",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://static.zara.net/static//pdfs/FR/terms-and-conditions/terms-and-conditions-fr_FR-20211025.pdf"
     },

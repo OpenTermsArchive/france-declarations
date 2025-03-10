@@ -1,6 +1,6 @@
 {
   "name": "Kaporal",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.kaporal.com/fr_fr/cgv",
       "select": [

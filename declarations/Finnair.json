@@ -1,6 +1,6 @@
 {
   "name": "Finnair",
-  "documents": {
+  "terms": {
     "Conditions of Carriage": {
       "fetch": "https://www.finnair.com/fr-fr/info/conditions-g%C3%A9n%C3%A9rales-de-transport-et-mises-en-garde/conditions-g%C3%A9n%C3%A9rales-de-transport-des-passagers-et-de-leurs-bagages",
       "select": [

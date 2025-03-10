@@ -1,6 +1,6 @@
 {
   "name": "Aigle",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.aigle.com/fr/fr/terms.html",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Vinted",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.vinted.fr/privacy-policy",
       "select": [

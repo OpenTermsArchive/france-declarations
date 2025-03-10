@@ -1,6 +1,6 @@
 {
   "name": "Amazon",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.amazon.fr/gp/help/customer/display.html?nodeId=201909000",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Lafuma",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.lafuma.com/fr/cgv.html/",
       "select": [

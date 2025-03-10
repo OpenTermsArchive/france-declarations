@@ -1,6 +1,6 @@
 {
   "name": "Cop.Copine",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.cop-copine.com/cgv.php",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Cdiscount",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.cdiscount.com/vie-privee-et-cookies.html",
       "select": [

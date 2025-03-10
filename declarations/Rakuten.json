@@ -1,6 +1,6 @@
 {
   "name": "Rakuten",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Uber",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.uber.com/legal/fr/document/?name=general-terms-of-use&country=france&lang=fr",
       "select": [

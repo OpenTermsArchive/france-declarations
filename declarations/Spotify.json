@@ -1,6 +1,6 @@
 {
   "name": "Spotify",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.spotify.com/fr/legal/privacy-policy/",
       "select": [

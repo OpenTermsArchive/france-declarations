@@ -1,6 +1,6 @@
 {
   "name": "Lacoste",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.lacoste.com/fr/CGV.html",
       "select": [

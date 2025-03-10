@@ -1,6 +1,6 @@
 {
   "name": "BoursoBank",
-  "documents": {
+  "terms": {
     "Imprint": {
       "fetch": "https://www.boursorama.com/aide/mentions-legales-et-cgu",
       "select": [

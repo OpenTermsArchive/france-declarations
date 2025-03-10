@@ -1,6 +1,6 @@
 {
   "name": "Cityscoot",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.cityscoot.eu/paris/cgu",
       "select": [
