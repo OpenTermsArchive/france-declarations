@@ -1,6 +1,6 @@
 {
   "name": "Austrian Airlines AG",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.austrian.com/fr/fr/data-protection",
       "select": [

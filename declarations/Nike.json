@@ -1,6 +1,6 @@
 {
   "name": "Nike",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://agreementservice.svs.nike.com/fr/fr-fr/rest/agreement?agreementType=privacyPolicy&uxId=com.nike.unite&country=FR&language=fr&requestType=redirect",
       "select": [

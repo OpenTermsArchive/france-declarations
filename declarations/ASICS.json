@@ -1,6 +1,6 @@
 {
   "name": "ASICS",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.asics.com/fr/fr-fr/customer-service/terms/terms.html",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Apple Media",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.apple.com/fr/legal/internet-services/itunes/fr/terms.html",
       "select": [

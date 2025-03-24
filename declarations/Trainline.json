@@ -1,6 +1,6 @@
 {
   "name": "Trainline",
-  "documents": {
+  "terms": {
     "Trackers Policy": {
       "fetch": "https://www.thetrainline.com/fr/terms/cookies",
       "select": [

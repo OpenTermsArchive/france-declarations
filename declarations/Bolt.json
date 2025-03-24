@@ -1,6 +1,6 @@
 {
   "name": "Bolt",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://bolt.eu/fr/legal/fr/terms-for-riders/",
       "select": [

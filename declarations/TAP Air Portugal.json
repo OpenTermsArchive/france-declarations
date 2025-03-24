@@ -1,6 +1,6 @@
 {
   "name": "TAP Air Portugal",
-  "documents": {
+  "terms": {
     "Conditions of Carriage": {
       "fetch": "https://www.flytap.com/fr-fr/conditions-de-transport",
       "select": ".root-main",

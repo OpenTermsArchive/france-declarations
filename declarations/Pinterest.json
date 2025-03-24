@@ -1,6 +1,6 @@
 {
   "name": "Pinterest",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://policy.pinterest.com/fr/terms-of-service",
       "select": "article"

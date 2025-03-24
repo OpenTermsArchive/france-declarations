@@ -1,6 +1,6 @@
 {
   "name": "IntraMuros",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.intramuros.org/confidentialite",
       "select": [

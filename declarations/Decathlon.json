@@ -1,6 +1,6 @@
 {
   "name": "Decathlon",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.decathlon.fr/landing/donnees-personnelles-decathlon/_/R-a-donnees-personnelles",
       "select": [

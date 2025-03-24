@@ -1,6 +1,6 @@
 {
   "name": "Legalstart",
-  "documents": {
+  "terms": {
     "Imprint": {
       "fetch": "https://www.legalstart.fr/corp/mentions-legales/",
       "select": [

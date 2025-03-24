@@ -1,6 +1,6 @@
 {
   "name": "GO Sport",
-  "documents": {
+  "terms": {
     "Commercial Terms": {
       "fetch": "https://www.go-sport.com/cgv/",
       "select": "[role=\"main\"]",

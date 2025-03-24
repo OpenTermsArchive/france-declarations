@@ -1,6 +1,6 @@
 {
   "name": "Emirates",
-  "documents": {
+  "terms": {
     "Conditions of Carriage": {
       "fetch": "https://www.emirates.com/fr/french/information/terms-and-conditions/",
       "select": [

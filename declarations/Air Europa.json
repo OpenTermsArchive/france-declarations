@@ -1,6 +1,6 @@
 {
   "name": "Air Europa",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.aireuropa.com/fr/fr/aea/informations-pour-voler/conditions/politique-de-confidentialite.html",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Marcel",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.marcel.cab/donnees-personnelles-clients/",
       "select": [

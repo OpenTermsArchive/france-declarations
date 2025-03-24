@@ -1,6 +1,6 @@
 {
   "name": "Morgan",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.morgandetoi.fr/conditions-generales-vente",
       "select": [

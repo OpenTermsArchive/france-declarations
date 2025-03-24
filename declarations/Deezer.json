@@ -1,6 +1,6 @@
 {
   "name": "Deezer",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.deezer.com/legal/cgu",
       "select": [

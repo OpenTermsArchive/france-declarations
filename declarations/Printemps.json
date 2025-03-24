@@ -1,6 +1,6 @@
 {
   "name": "Printemps",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.printemps.com/fr/fr/protection-donnees-personnelles",
       "select": [

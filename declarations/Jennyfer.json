@@ -1,6 +1,6 @@
 {
   "name": "Jennyfer",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.jennyfer.com/fr-fr/conditions-generales-de-vente-cgv.html",
       "select": [

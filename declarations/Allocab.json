@@ -1,6 +1,6 @@
 {
   "name": "Allocab",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.allocab.com/informations/conditions-generales-de-service/",
       "select": [

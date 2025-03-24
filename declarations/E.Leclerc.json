@@ -1,6 +1,6 @@
 {
   "name": "E.Leclerc",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.e.leclerc/e/conditions-generales-de-vente",
       "select": [

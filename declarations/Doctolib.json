@@ -1,6 +1,6 @@
 {
   "name": "Doctolib",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://media.doctolib.com/image/upload/v1657701853/legal/B2C-CU-VInterm-July-22-FR.pdf"
     },

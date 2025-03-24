@@ -1,6 +1,6 @@
 {
   "name": "Alibaba",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://rule.alibaba.com/rule/detail/4671.htm?",
       "select": [

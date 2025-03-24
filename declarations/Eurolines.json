@@ -1,6 +1,6 @@
 {
   "name": "Eurolines",
-  "documents": {
+  "terms": {
     "General Conditions of Sale": {
       "fetch": "https://www.eurolines.de/fr/agb/cgv-sur-linternet/",
       "select": [
