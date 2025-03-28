@@ -1,0 +1,12 @@
+{
+  "name": "Fiat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fiat.fr/contacts/protection-des-donnees",
+      "select": {
+        "startBefore": "h1",
+        "endBefore": ".social-footer-wrap"
+      }
+    }
+  }
+}
