@@ -1,0 +1,8 @@
+{
+  "name": "Nissan Connect",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nissan.fr/content/dam/Nissan/nissan_europe/services/Ownership/nissanconnect_services_2021/terms_and_conditions_door_to_door/privacy-policy-for-nissan-connect-door-to-door-navigation-fr-final.pdf"
+    }
+  }
+}
