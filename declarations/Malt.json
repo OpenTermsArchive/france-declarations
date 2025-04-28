@@ -1,6 +1,6 @@
 {
   "name": "Malt",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.malt.fr/legal",
       "select": [
