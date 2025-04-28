@@ -1,10 +1,17 @@
 {
   "name": "Malt",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.malt.fr/legal",
       "select": [
         ".page-legal__content"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.malt.fr/about/privacy/policy",
+      "select": [
+        ".about-privacy"
       ],
       "executeClientScripts": true
     }
