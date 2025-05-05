@@ -1,0 +1,25 @@
+{
+  "name": "Bolt Driver",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bolt.eu/fr/legal/fr/terms-for-riders/",
+      "select": [
+        "#header",
+        ".document .container"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://bolt.eu/fr/cookie-declaration/",
+      "select": [
+        ".cookie-declaration"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://bolt.eu/fr/legal/fr/privacy-for-riders/",
+      "select": [
+        "#header",
+        ".document .container"
+      ]
+    }
+  }
+}
