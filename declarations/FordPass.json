@@ -1,0 +1,19 @@
+{
+  "name": "FordPass",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fordpass.com/content/ford_com/fp_app/fr_fr/privacy.html",
+      "select": {
+        "startAfter": "a",
+        "endAfter": ".richText-component"
+      }
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fordpass.com/content/ford_com/fp_app/fr_fr/terms.html",
+      "select": {
+        "startAfter": "a",
+        "endAfter": ".richText-component"
+      }
+    }
+  }
+}
