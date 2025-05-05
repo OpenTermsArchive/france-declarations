@@ -1,0 +1,15 @@
+{
+  "name": "MyPeugeot",
+  "documents": {
+    "Privacy Policy": {
+      "executeClientScripts": true,
+      "fetch": "https://ap-mym.servicesgp.mpsa.com/webview/gdpr/privacy?culture=fr-FR",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "executeClientScripts": true,
+      "fetch": "https://ap-mym.servicesgp.mpsa.com/webview/cgu?culture=fr-FR",
+      "select": "body"
+    }
+  }
+}
