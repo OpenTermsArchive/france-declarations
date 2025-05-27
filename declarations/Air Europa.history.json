@@ -1,0 +1,15 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.aireuropa.com/fr/fr/aea/informations-pour-voler/conditions/politique-de-confidentialite.html",
+      "select": [
+        ".cmp-Jumbo-banner-small",
+        ".cmp-container"
+      ],
+      "remove": [
+        "#interestBlock"
+      ],
+      "validUntil": "2025-05-20T12:30:50Z"
+    }
+  ]
+}
