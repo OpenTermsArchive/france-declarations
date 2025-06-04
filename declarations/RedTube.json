@@ -1,0 +1,17 @@
+{
+  "name": "RedTube",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://fr.redtube.com/info/terms",
+      "select": [
+        "main"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://fr.redtube.com/info/privacy",
+      "select": [
+        "main"
+      ]
+    }
+  }
+}
