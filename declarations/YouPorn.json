@@ -1,0 +1,17 @@
+{
+  "name": "YouPorn",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.youporn.com/info/terms",
+      "select": [
+        "main"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.youporn.com/info/privacy",
+      "select": [
+        "main"
+      ]
+    }
+  }
+}
