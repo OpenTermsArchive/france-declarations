@@ -1,0 +1,17 @@
+{
+  "name": "Pornhub",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.pornhub.com/info/terms",
+      "select": [
+        "main"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pornhub.com/info/privacy",
+      "select": [
+        "main"
+      ]
+    }
+  }
+}
