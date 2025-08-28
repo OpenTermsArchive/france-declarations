@@ -1,0 +1,11 @@
+{
+  "name": "Gorillas",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cdn.sanity.io/files/iuu3qva9/production/1c2f74d30349ba366c698c5cf414567991f7e985.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cdn.sanity.io/files/iuu3qva9/production/3b51bd1927d211da7f8d01c80af4f0943a46b5bf.pdf"
+    }
+  }
+}
