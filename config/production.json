@@ -46,7 +46,7 @@
     },
     "collection-api": {
       "port": 3000,
-      "basePath": "/collection-api"
+      "basePath": "/api/france"
     }
   }
 }
