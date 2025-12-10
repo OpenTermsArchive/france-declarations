@@ -27,7 +27,7 @@ governance:
   Open Terms Archive:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
-    roles: [administrator, curator, maintainer]
+    roles: [sysadmin, curator, maintainer]
   UFC-Que Choisir:
     url: https://www.quechoisir.org
     logo: https://opentermsarchive.org/images/contributors/ufc-que-choisir.png
