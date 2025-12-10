@@ -1,6 +1,6 @@
 {
   "name": "Škoda Connect",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://consent.vwgroup.io/consent/v1/texts/SkodaConnect/be/fr/PrivacyPolicy/latest/html",
       "select": "body"
