@@ -1,0 +1,6 @@
+all:
+  hosts:
+    54.37.5.206:
+      ansible_user: debian
+      ota_source_repository: https://github.com/OpenTermsArchive/france-declarations.git
+      ota_source_repository_branch: multi-tenant-deployment
