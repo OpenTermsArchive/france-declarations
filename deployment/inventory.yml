@@ -1,6 +1,6 @@
 all:
   hosts:
-    198.244.142.9:
+    217.182.67.38:
       ansible_user: debian
       ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIKH7P9SCnnSiVOhGMNvHIjWw5+3TYlmgmTK45Y9d1aCu
-      ota_source_repository: https://github.com/OpenTermsArchive/france-declarations.git
+      ota_collection_repository: https://github.com/OpenTermsArchive/france-declarations.git
