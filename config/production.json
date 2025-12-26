@@ -38,8 +38,11 @@
       }
     },
     "dataset": {
-      "title": "france",
-      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/france-versions"
+      "title": "france collection dataset",
+      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/france-versions",
+      "datagouv": {
+        "organizationIdOrSlug": "5ce284728b4c415a86c1fa31"
+      }
     },
     "logger": {
       "timestampPrefix": false
