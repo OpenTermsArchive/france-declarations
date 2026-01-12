@@ -68,6 +68,16 @@
         }
       ]
     },
+    "Imprint": {
+      "fetch": "https://www.airbnb.fr/about/company-details",
+      "executeClientScripts": true,
+      "select": [
+        {
+          "startAfter": "header",
+          "endAfter": "body"
+        }
+      ]
+    },
     "Community Guidelines": {
       "combine": [
         {
