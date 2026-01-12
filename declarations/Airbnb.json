@@ -38,6 +38,176 @@
           "endBefore": "#CEP_ARTICLES_SECTION_0"
         }
       ]
+    },
+    "Community Guidelines": {
+      "combine": [
+        {
+          "fetch": "https://www.airbnb.fr/help/feature/1",
+          "select": [
+            {
+              "startBefore": "h1",
+              "endBefore": "[data-testid='GENERAL_LINK']"
+            }
+          ]
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3063"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3062"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3064"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2833"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2135"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2839"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3261"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3275"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3060"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3061"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2867"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3058"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/1869"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2575"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/546"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2741"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3723"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2868"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/1320"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2930"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/149"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/1593"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2278"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3213"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3047"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3050"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/1170"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3053"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3049"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3512"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3345"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2894"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/1950"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2799"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3280"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3566"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3059"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/140"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2827"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3206"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3057"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2895"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/937"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2700"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/1303"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/829"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/1526"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/1608"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/1451"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3855"
+        }
+      ],
+      "executeClientScripts": true,
+      "select": [
+        {
+          "startBefore": "#HELP_CENTER_MARQUEE_PRIMARY_SECTION_0",
+          "endBefore": "#CEP_ARTICLES_SECTION_0"
+        }
+      ]
     }
   }
 }
