@@ -2,13 +2,42 @@
   "name": "Airbnb",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.airbnb.fr/help/article/2908",
+      "combine": [
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2908",
+          "select": [
+            "h1",
+            {
+              "startBefore": "#EUTOS",
+              "endBefore": "#TOS"
+            }
+          ]
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2909",
+          "select": [
+            "h1",
+            {
+              "startBefore": "#EUPTOS",
+              "endBefore": "#ptos"
+            }
+          ]
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/1857"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2827"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/1321"
+        }
+      ],
       "executeClientScripts": true,
       "select": [
-        "h1",
         {
-          "startBefore": "#EUTOS",
-          "endBefore": "#TOS"
+          "startBefore": "#HELP_CENTER_MARQUEE_PRIMARY_SECTION_0",
+          "endBefore": "#CEP_ARTICLES_SECTION_0"
         }
       ]
     },
