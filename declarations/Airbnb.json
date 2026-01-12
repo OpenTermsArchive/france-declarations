@@ -1,0 +1,40 @@
+{
+  "name": "Airbnb",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.airbnb.fr/help/article/2908",
+      "select": [
+        "h1",
+        {
+          "startBefore": "#EUTOS",
+          "endBefore": "#TOS"
+        }
+      ]
+    },
+    "Privacy Policy": {
+      "combine": [
+        {
+          "fetch": "https://www.airbnb.fr/help/article/3175"
+        },
+        {
+          "fetch": "https://www.airbnb.fr/help/article/2860"
+        }
+      ],
+      "select": [
+        {
+          "startBefore": "#HELP_CENTER_MARQUEE_PRIMARY_SECTION_0",
+          "endBefore": "#CEP_ARTICLES_SECTION_0"
+        }
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.airbnb.fr/help/article/2866",
+      "select": [
+        {
+          "startBefore": "#HELP_CENTER_MARQUEE_PRIMARY_SECTION_0",
+          "endBefore": "#CEP_ARTICLES_SECTION_0"
+        }
+      ]
+    }
+  }
+}
