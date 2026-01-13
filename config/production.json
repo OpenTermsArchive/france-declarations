@@ -20,7 +20,7 @@
       }
     },
     "fetcher": {
-      "language": "fr"
+      "language": "fr-FR,fr;q=0.9"
     },
     "notifier": {
       "sendInBlue": {
