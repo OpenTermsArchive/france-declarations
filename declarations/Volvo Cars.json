@@ -1,0 +1,13 @@
+{
+  "name": "Volvo Cars",
+  "documents": {
+    "Privacy Policy": {
+      "executeClientScripts": true,
+      "fetch": "https://www.volvocars.com/fr/legal/privacy/privacy-car",
+      "select": {
+        "startBefore": "h1",
+        "endBefore": "#vcc-site-footer"
+      }
+    }
+  }
+}
