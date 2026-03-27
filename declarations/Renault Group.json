@@ -1,0 +1,15 @@
+{
+  "name": "Renault Group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.renault.fr/donnees-personnelles.html",
+      "select": [
+        "#Page h1",
+        "#Page > div[class='EditorialContentZone']"
+      ],
+      "remove": [
+        "img"
+      ]
+    }
+  }
+}
