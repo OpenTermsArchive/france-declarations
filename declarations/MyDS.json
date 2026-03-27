@@ -1,0 +1,10 @@
+{
+  "name": "MyDS",
+  "documents": {
+    "Privacy Policy": {
+      "executeClientScripts": true,
+      "fetch": "https://ds-mym.servicesgp.mpsa.com/webview/gdpr/privacy?culture=fr-FR",
+      "select": "body"
+    }
+  }
+}
