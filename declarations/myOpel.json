@@ -1,0 +1,10 @@
+{
+  "name": "myOpel",
+  "documents": {
+    "Privacy Policy": {
+      "executeClientScripts": true,
+      "fetch": "https://op-mym.servicesgp.mpsa.com/webview/gdpr/privacy?culture=fr-FR",
+      "select": "body"
+    }
+  }
+}
