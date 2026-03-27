@@ -1,0 +1,12 @@
+{
+  "name": "My Volkswagen",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.volkswagen.fr/fr/footer/mentions-legales.html",
+      "select": {
+        "startBefore": "#accordionitem_copy_head",
+        "endBefore": "#accordionitem_copy_c_head"
+      }
+    }
+  }
+}
