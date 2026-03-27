@@ -1,0 +1,15 @@
+{
+  "name": "MyCitroën",
+  "documents": {
+    "Privacy Policy": {
+      "executeClientScripts": true,
+      "fetch": "https://ac-mym.servicesgp.mpsa.com/webview/gdpr/privacy?culture=fr-FR",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "executeClientScripts": true,
+      "fetch": "https://ac-mym.servicesgp.mpsa.com/webview/cgu?culture=fr-FR",
+      "select": "body"
+    }
+  }
+}
