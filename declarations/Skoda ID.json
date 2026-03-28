@@ -1,0 +1,13 @@
+{
+  "name": "Škoda ID",
+  "documents": {
+    "Privacy Policy": {
+      "executeClientScripts": true,
+      "fetch": "https://skodaid.vwgroup.io/data-privacy",
+      "select": {
+        "startBefore": "h1",
+        "endBefore": ".button"
+      }
+    }
+  }
+}
