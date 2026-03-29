@@ -1,0 +1,19 @@
+{
+  "name": "Kia Connect",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://connect.kia.com/lu/kia-connect-privacy-notice/",
+      "select": {
+        "startAfter": ".eut_cmpe_btn",
+        "endAfter": "div.par.parsys"
+      }
+    },
+    "Terms of Service": {
+      "fetch": "https://connect.kia.com/fr/kia-connect-legal-document1/",
+      "select": {
+        "startAfter": ".eut_cmpe_btn",
+        "endAfter": "div.par.parsys"
+      }
+    }
+  }
+}
